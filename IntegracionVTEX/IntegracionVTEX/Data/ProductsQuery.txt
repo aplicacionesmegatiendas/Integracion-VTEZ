@@ -1,0 +1,31 @@
+﻿select 
+	f120_descripcion_corta Name,
+	m_tvn1.f106_descripcion+'/'+m_tvn2.f106_descripcion CategoryPath,
+	m_marca.f106_descripcion BrandName,
+	f120_id RefId,
+	f120_descripcion Title,
+	'True' IsVisible,
+    'True' IsActive,
+    '' TaxCode,
+    f120_descripcion MetaTagDescription,
+    'False' ShowWithoutStock,
+    1 Score
+from
+	t120_mc_items
+	left outer join t125_mc_items_criterios marca on marca.f125_id_cia=f120_id_cia and marca.f125_rowid_item=f120_rowid and f125_id_plan='012'
+	left outer join t106_mc_criterios_item_mayores m_marca on m_marca.f106_id_cia=marca.f125_id_cia and m_marca.f106_id_plan=marca.f125_id_plan and m_marca.f106_id=marca.f125_id_criterio_mayor
+	inner join t125_mc_items_criterios tvn1 on tvn1.f125_id_cia=f120_id_cia and tvn1.f125_rowid_item=f120_rowid and tvn1.f125_id_plan='018'
+	inner join t106_mc_criterios_item_mayores m_tvn1 on m_tvn1.f106_id_cia=tvn1.f125_id_cia and m_tvn1.f106_id_plan=tvn1.f125_id_plan and m_tvn1.f106_id=tvn1.f125_id_criterio_mayor
+	inner join t125_mc_items_criterios tvn2 on tvn2.f125_id_cia=f120_id_cia and tvn2.f125_rowid_item=f120_rowid and tvn2.f125_id_plan='019'
+	inner join t106_mc_criterios_item_mayores m_tvn2 on m_tvn2.f106_id_cia=tvn2.f125_id_cia and m_tvn2.f106_id_plan=tvn2.f125_id_plan and m_tvn2.f106_id=tvn2.f125_id_criterio_mayor
+where
+	f120_id_cia=@id_cia
+	and f120_rowid in (
+		select
+			f121_rowid_item
+		from
+			t137_mc_portafolio_items
+			inner join t121_mc_items_extensiones on f121_id_cia=f137_id_cia and f137_id_portafolio=@id_portafolio and f121_rowid=f137_rowid_item_ext
+		where
+			f137_id_cia=@id_cia
+	);

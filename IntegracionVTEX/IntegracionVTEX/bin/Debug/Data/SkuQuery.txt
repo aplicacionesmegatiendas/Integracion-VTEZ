@@ -1,0 +1,51 @@
+﻿select
+	null ProductId,
+	'True' IsActive,
+	'True' ActivateIfPossible,
+	f120_descripcion Name,
+	f120_id RefId,
+	f131_id Ean,
+	0 PackagedHeight,
+	0 PackagedLength,
+	0 PackagedWidth,
+    0 PackagedWeightKg,
+    null Height,
+    null Length,
+    null Width,
+    null WeightKg,
+    0.0 CubicWeight,
+	'False' IsKit,
+    null CreationDate,
+    null RewardValue,
+	null EstimatedDateArrival,
+    null ManufacturerCode,
+    1 CommercialConditionId,
+	case when f131_id_unidad_medida='UND' then 'Un'
+		when f131_id_unidad_medida='KG' then 'Kg'
+		when f131_id_unidad_medida='LBS' then 'Lb'
+	else
+		'Un'
+	end  MeasurementUnit,
+	1 UnitMultiplier,
+	null ModalType,
+    'false' KitItensSellApart,
+	null Videos
+from
+	t131_mc_items_barras
+	inner join t121_mc_items_extensiones on f121_id_cia=f131_id_cia and f121_rowid=f131_rowid_item_ext
+	inner join t120_mc_items on f120_id_cia=f121_id_cia and f120_rowid=f121_rowid_item
+	inner join t125_mc_items_criterios tvn1 on tvn1.f125_id_cia=f120_id_cia and tvn1.f125_rowid_item=f120_rowid and tvn1.f125_id_plan='018'
+	inner join t106_mc_criterios_item_mayores m_tvn1 on m_tvn1.f106_id_cia=tvn1.f125_id_cia and m_tvn1.f106_id_plan=tvn1.f125_id_plan and m_tvn1.f106_id=tvn1.f125_id_criterio_mayor
+	inner join t125_mc_items_criterios tvn2 on tvn2.f125_id_cia=f120_id_cia and tvn2.f125_rowid_item=f120_rowid and tvn2.f125_id_plan='019'
+	inner join t106_mc_criterios_item_mayores m_tvn2 on m_tvn2.f106_id_cia=tvn2.f125_id_cia and m_tvn2.f106_id_plan=tvn2.f125_id_plan and m_tvn2.f106_id=tvn2.f125_id_criterio_mayor
+where
+	f131_id_cia=@id_cia
+	and f120_rowid in (
+		select
+			f121_rowid_item
+		from
+			t137_mc_portafolio_items
+			inner join t121_mc_items_extensiones on f121_id_cia=f137_id_cia and f137_id_portafolio=@id_portafolio and f121_rowid=f137_rowid_item_ext
+		where
+			f137_id_cia=@id_cia
+	)

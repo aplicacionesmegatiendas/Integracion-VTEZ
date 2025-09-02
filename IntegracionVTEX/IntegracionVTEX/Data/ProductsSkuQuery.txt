@@ -1,0 +1,94 @@
+﻿select * from
+(
+select distinct
+	--product
+	--f120_descripcion_corta Name,
+	--m_tvn1.f106_descripcion+'/'+m_tvn2.f106_descripcion CategoryPath,
+	--m_marca.f106_descripcion BrandName,
+	ROW_NUMBER() OVER(ORDER BY [f120_id] ASC) AS RowNro, 
+	f120_id RefId,
+	--f120_descripcion Title,
+	--'True' IsVisible,
+    --'True' IsActive,
+    --'' TaxCode,
+    --f120_descripcion MetaTagDescription,
+    --'False' ShowWithoutStock,
+    --1 Score,
+
+	--sku
+	--null ProductId,
+	--'True' IsActive,
+	--'True' ActivateIfPossible,
+	f131_id Ean,
+	--0 PackagedHeight,
+	--0 PackagedLength,
+	--0 PackagedWidth,
+    --0 PackagedWeightKg,
+    --null Height,
+    --null Length,
+    --null Width,
+    --null WeightKg,
+    --0.0 CubicWeight,
+	--'False' IsKit,
+    --null CreationDate,
+    --null RewardValue,
+	--null EstimatedDateArrival,
+    --null ManufacturerCode,
+    --1 CommercialConditionId,
+	case when f131_id_unidad_medida='UND' then 'Un'
+		when f131_id_unidad_medida='KG' then 'Kg'
+		when f131_id_unidad_medida='LBS' then 'Lb'
+	else
+		'Un'
+	end  MeasurementUnit
+	--1 UnitMultiplier,
+	--null ModalType,
+    --'false' KitItensSellApart,
+	--null Videos,
+
+	--especificacion
+	--dbo.F_GENERICO_HALLAR_MOVTO_ENT_2(f120_id_cia,isnull(f120_rowid_movto_entidad,0),'001','UND',1,3) "Unidad de medida",
+	--cast(dbo.F_GENERICO_HALLAR_MOVTO_ENT(f120_id_cia,isnull(f120_rowid_movto_entidad,0),'001','FACTOR',3) as decimal(28,0)) "Factor conversión"
+	--entidades dinamica
+	,(dbo.F_GENERICO_HALLAR_MOVTO_ENT(f120_id_cia,isnull(f120_rowid_movto_entidad,0),'ecommerce','ec_nombre_sku',1)) 'Nombre Sku'
+	,(dbo.F_GENERICO_HALLAR_MOVTO_ENT(f120_id_cia,isnull(f120_rowid_movto_entidad,0),'ecommerce','ec_mg_um',1)) 'Unidad de Medida'
+	,(dbo.F_GENERICO_HALLAR_MOVTO_ENT(f120_id_cia,isnull(f120_rowid_movto_entidad,0),'ecommerce','ec_mult_um',3)) 'Multiplicador Unidad'
+	,(dbo.F_GENERICO_HALLAR_MOVTO_ENT(f120_id_cia,isnull(f120_rowid_movto_entidad,0),'ecommerce','ec_nombre_producto',1)) 'Nombre del producto'
+	,(dbo.F_GENERICO_HALLAR_MOVTO_ENT(f120_id_cia,isnull(f120_rowid_movto_entidad,0),'ecommerce','ec_producto_activo',1)) 'producto Activo'
+	,(dbo.F_GENERICO_HALLAR_MOVTO_ENT(f120_id_cia,isnull(f120_rowid_movto_entidad,0),'ecommerce','ec_mostrar_sitio',1)) 'Mostrar en Sitio'
+	,(dbo.F_GENERICO_HALLAR_MOVTO_ENT(f120_id_cia,isnull(f120_rowid_movto_entidad,0),'ecommerce','ec_link_texto',1)) 'Link Texto'
+	,(dbo.F_GENERICO_HALLAR_MOVTO_ENT(f120_id_cia,isnull(f120_rowid_movto_entidad,0),'ecommerce','ec_desc_producto',1)) 'Descripcion del producto'
+
+	,(dbo.F_GENERICO_HALLAR_MOVTO_ENT(f120_id_cia,isnull(f120_rowid_movto_entidad,0),'ecommerce','ec_palabras_claves',1)) 'Palabras Claves'
+	,(dbo.F_GENERICO_HALLAR_MOVTO_ENT(f120_id_cia,isnull(f120_rowid_movto_entidad,0),'ecommerce','ec_titulo_sitio',1)) 'Titulo del Sitio'
+	,(dbo.F_GENERICO_HALLAR_MOVTO_ENT(f120_id_cia,isnull(f120_rowid_movto_entidad,0),'ecommerce','ec_desc_metatag',1)) 'Descripcion MetaTag'
+
+	,(dbo.F_GENERICO_HALLAR_MOVTO_ENT(f120_id_cia,isnull(f120_rowid_movto_entidad,0),'ecommerce','ec_id_categoria',3)) 'ID de categoria'
+
+	,(dbo.F_GENERICO_HALLAR_MOVTO_ENT(f120_id_cia,isnull(f120_rowid_movto_entidad,0),'ecommerce','ec_id_marca',3)) 'Id de la marca'
+	,(dbo.F_GENERICO_HALLAR_MOVTO_ENT(f120_id_cia,isnull(f120_rowid_movto_entidad,0),'ecommerce','url_foto',1)) 'URL Foto'
+	,(dbo.F_GENERICO_HALLAR_MOVTO_ENT(f120_id_cia,isnull(f120_rowid_movto_entidad,0),'ecommerce','ec_cant_minima',3)) 'Cantidad Minima'
+from
+	t131_mc_items_barras
+	inner join t121_mc_items_extensiones on f121_id_cia=f131_id_cia and f121_rowid=f131_rowid_item_ext
+	inner join t120_mc_items on f120_id_cia=f121_id_cia and f120_rowid=f121_rowid_item
+	left outer join t125_mc_items_criterios marca on marca.f125_id_cia=f120_id_cia and marca.f125_rowid_item=f120_rowid and f125_id_plan='012'
+	left outer join t106_mc_criterios_item_mayores m_marca on m_marca.f106_id_cia=marca.f125_id_cia and m_marca.f106_id_plan=marca.f125_id_plan and m_marca.f106_id=marca.f125_id_criterio_mayor
+	inner join t125_mc_items_criterios tvn1 on tvn1.f125_id_cia=f120_id_cia and tvn1.f125_rowid_item=f120_rowid and tvn1.f125_id_plan='018'
+	inner join t106_mc_criterios_item_mayores m_tvn1 on m_tvn1.f106_id_cia=tvn1.f125_id_cia and m_tvn1.f106_id_plan=tvn1.f125_id_plan and m_tvn1.f106_id=tvn1.f125_id_criterio_mayor
+	inner join t125_mc_items_criterios tvn2 on tvn2.f125_id_cia=f120_id_cia and tvn2.f125_rowid_item=f120_rowid and tvn2.f125_id_plan='019'
+	inner join t106_mc_criterios_item_mayores m_tvn2 on m_tvn2.f106_id_cia=tvn2.f125_id_cia and m_tvn2.f106_id_plan=tvn2.f125_id_plan and m_tvn2.f106_id=tvn2.f125_id_criterio_mayor
+where
+	f120_id_cia=@id_cia
+	and f120_rowid in (
+		select
+			f121_rowid_item
+		from
+			t137_mc_portafolio_items
+			inner join t121_mc_items_extensiones on f121_id_cia=f137_id_cia and f137_id_portafolio=@id_portafolio and f121_rowid=f137_rowid_item_ext
+		where
+			f137_id_cia=@id_cia
+	)
+	and len(f131_id)<=13
+) as res
+where RowNro between @row_ini and @row_fin

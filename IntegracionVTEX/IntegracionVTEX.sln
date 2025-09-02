@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegracionVTEX", "IntegracionVTEX\IntegracionVTEX.csproj", "{96F2725C-4AFD-45A0-ABBA-39B975D0867F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{E0674CF8-9815-47E1-8A7C-68A07C7B9A71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96F2725C-4AFD-45A0-ABBA-39B975D0867F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F2725C-4AFD-45A0-ABBA-39B975D0867F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F2725C-4AFD-45A0-ABBA-39B975D0867F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F2725C-4AFD-45A0-ABBA-39B975D0867F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0674CF8-9815-47E1-8A7C-68A07C7B9A71}.Debug|Any CPU.ActiveCfg = Debug
+		{E0674CF8-9815-47E1-8A7C-68A07C7B9A71}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21572DA1-86A9-4474-987B-CDE06BF70C04}
+	EndGlobalSection
+EndGlobal

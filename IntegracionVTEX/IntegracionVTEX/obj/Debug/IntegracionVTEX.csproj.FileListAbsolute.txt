@@ -1,0 +1,843 @@
+C:\Users\dcarmona\Documents\Visual Studio 2022\Proyectos\IntegracionVTEX\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+C:\Users\dcarmona\Documents\Visual Studio 2022\Proyectos\IntegracionVTEX\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+C:\Users\dcarmona\Documents\Visual Studio 2022\Proyectos\IntegracionVTEX\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+C:\Users\dcarmona\Documents\Visual Studio 2022\Proyectos\IntegracionVTEX\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dcarmona\Documents\Visual Studio 2022\Proyectos\IntegracionVTEX\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dcarmona\Documents\Visual Studio 2022\Proyectos\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+C:\Users\dcarmona\Documents\Visual Studio 2022\Proyectos\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\dcarmona\Documents\Visual Studio 2022\Proyectos\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+C:\Users\dcarmona\Documents\Visual Studio 2022\Proyectos\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+C:\Users\dcarmona\Documents\Visual Studio 2022\Proyectos\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+C:\Users\dcarmona\Documents\Visual Studio 2022\Proyectos\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+C:\Users\dcarmona\Documents\Visual Studio 2022\Proyectos\IntegracionVTEX\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.SuggestedBindingRedirects.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230411\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230411\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230411\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230411\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230411\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230411\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230411\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230411\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230411\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230411\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230411\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230411\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.SuggestedBindingRedirects.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230411\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230411\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+C:\Users\dcarmona\Desktop\IntegracionVTEX_20230414\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+C:\Users\dcarmona\Desktop\IntegracionVTEX_20230414\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\dcarmona\Desktop\IntegracionVTEX_20230414\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+C:\Users\dcarmona\Desktop\IntegracionVTEX_20230414\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+C:\Users\dcarmona\Desktop\IntegracionVTEX_20230414\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+C:\Users\dcarmona\Desktop\IntegracionVTEX_20230414\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+C:\Users\dcarmona\Desktop\IntegracionVTEX_20230414\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+C:\Users\dcarmona\Desktop\IntegracionVTEX_20230414\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+C:\Users\dcarmona\Desktop\IntegracionVTEX_20230414\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+C:\Users\dcarmona\Desktop\IntegracionVTEX_20230414\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+C:\Users\dcarmona\Desktop\IntegracionVTEX_20230414\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+C:\Users\dcarmona\Desktop\IntegracionVTEX_20230414\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dcarmona\Desktop\IntegracionVTEX_20230414\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dcarmona\Desktop\IntegracionVTEX_20230414\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230414\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230414\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230414\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230414\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230414\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230414\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230414\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230414\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230414\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230414\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.SuggestedBindingRedirects.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230414\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230414\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230414\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230414\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230502\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230502\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230502\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230502\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230502\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230502\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230502\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230502\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230502\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230502\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.SuggestedBindingRedirects.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230502\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230502\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230502\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230502\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230505\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230505\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230505\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230505\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230505\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230505\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230505\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230505\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230505\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230505\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.SuggestedBindingRedirects.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230505\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230505\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230505\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230505\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230508\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230508\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230508\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230508\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230508\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230508\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230508\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230508\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230508\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230508\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.SuggestedBindingRedirects.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230508\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230508\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230508\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230508\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.SuggestedBindingRedirects.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509 - copia\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509 - copia\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509 - copia\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509 - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509 - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509 - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509 - copia\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509 - copia\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509 - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509 - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.SuggestedBindingRedirects.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509 - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509 - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509 - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230509 - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+C:\Users\dcarmona\Downloads\PF\IntegracionVTEX_20230511_GH\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+C:\Users\dcarmona\Downloads\PF\IntegracionVTEX_20230511_GH\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+C:\Users\dcarmona\Downloads\PF\IntegracionVTEX_20230511_GH\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+C:\Users\dcarmona\Downloads\PF\IntegracionVTEX_20230511_GH\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+C:\Users\dcarmona\Downloads\PF\IntegracionVTEX_20230511_GH\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+C:\Users\dcarmona\Downloads\PF\IntegracionVTEX_20230511_GH\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+C:\Users\dcarmona\Downloads\PF\IntegracionVTEX_20230511_GH\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dcarmona\Downloads\PF\IntegracionVTEX_20230511_GH\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dcarmona\Downloads\PF\IntegracionVTEX_20230511_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+C:\Users\dcarmona\Downloads\PF\IntegracionVTEX_20230511_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.SuggestedBindingRedirects.cache
+C:\Users\dcarmona\Downloads\PF\IntegracionVTEX_20230511_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+C:\Users\dcarmona\Downloads\PF\IntegracionVTEX_20230511_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+C:\Users\dcarmona\Downloads\PF\IntegracionVTEX_20230511_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+C:\Users\dcarmona\Downloads\PF\IntegracionVTEX_20230511_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230511_GH\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230511_GH\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230511_GH\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230511_GH\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230511_GH\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230511_GH\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230511_GH\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230511_GH\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230511_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230511_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.SuggestedBindingRedirects.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230511_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230511_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230511_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230511_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230517_GH\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230517_GH\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230517_GH\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230517_GH\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230517_GH\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230517_GH\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230517_GH\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230517_GH\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230517_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230517_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.SuggestedBindingRedirects.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230517_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230517_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230517_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\IntegracionVTEX_20230517_GH\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230623_MT\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230623_MT\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230623_MT\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230623_MT\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230623_MT\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230623_MT\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230623_MT\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230623_MT\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230623_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230623_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.SuggestedBindingRedirects.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230623_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230623_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230623_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230623_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230623_MT\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230623_MT\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230718_MT\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230718_MT\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230718_MT\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230718_MT\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230718_MT\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230718_MT\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230718_MT\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230718_MT\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230718_MT\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230718_MT\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230718_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230718_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230718_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230718_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230718_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230926_MT\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230926_MT\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230926_MT\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230926_MT\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230926_MT\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230926_MT\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230926_MT\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230926_MT\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230926_MT\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230926_MT\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230926_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230926_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230926_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230926_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230926_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20230926_MT\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231002_MT\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231002_MT\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231002_MT\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231002_MT\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231002_MT\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231002_MT\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231002_MT\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231002_MT\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231002_MT\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231002_MT\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231002_MT\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231002_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231002_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231002_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231002_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231002_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.5\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.5\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.5\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.5\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.5\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.5\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.5\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.5\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.5\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.5\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.5\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.5\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.5\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.5\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.5\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.5\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231003_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231011_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231011_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231011_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231011_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231011_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231011_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231011_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231011_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231011_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231011_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231011_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231011_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231011_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231011_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231011_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231011_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231018_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231018_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231018_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231018_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231018_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231018_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231018_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231018_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231018_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231018_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231018_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231018_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231018_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231018_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231018_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231018_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231019_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231019_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231019_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231019_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231019_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231019_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231019_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231019_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231019_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231019_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231019_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231019_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231019_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231019_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231019_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231019_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231019_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231108_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231201_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20231211_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CopyComplete
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240112_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240115_MT - FW4.6\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - copia\IntegracionVTEX\bin\Debug\Data\PromoQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240410_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsSkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240729_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\PromotionCentroOperacionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsSkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionCentroOperacionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsSkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\PromotionCentroOperacionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20240805_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsSkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionCentroOperacionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\IntegracionVTEX_20250110_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsSkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionCentroOperacionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsSkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\PromotionCentroOperacionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250327_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsSkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionCentroOperacionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsSkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\PromotionCentroOperacionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250618_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsSkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionCentroOperacionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsSkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\PromotionCentroOperacionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250710_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsSkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionCentroOperacionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsSkuQuery.txt
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionCentroOperacionQuery.txt
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe.config
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+D:\MEGA\IntegracionVTEX_20250716_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsSkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionCentroOperacionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsSkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Data\PromotionCentroOperacionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250901_MT - FW4.6 - query original - copia\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsSkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionCentroOperacionQuery.txt
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\Desktop\PROYECTOS\VERSIONES ACT\VTEX\MT\PROMO VALOR\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsSkuQuery.txt
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Data\PromotionCentroOperacionQuery.txt
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
