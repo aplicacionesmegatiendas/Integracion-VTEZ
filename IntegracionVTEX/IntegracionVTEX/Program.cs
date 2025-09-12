@@ -576,20 +576,32 @@ namespace IntegracionVTEX
 
 		private static void CreateUpdatePromotion(DataTable data, Promotions promotion, bool master, bool institucional)
 		{
-			var rangosUnicos = data.AsEnumerable()
+			var rangos_fechas = data.AsEnumerable()
 					.Select(row => new
 					{
                         beginDateUtc = row.Field<DateTime>("beginDateUtc"),
                         endDateUtc = row.Field<DateTime>("endDateUtc")
 					})
 					.Distinct()
+					.OrderBy(r => r.beginDateUtc)
+					.ThenBy(r => r.endDateUtc)
 					.ToList();
 
-            int[] total;
+			/*var rangos_vigentes = rangos_fechas
+				.Where(p => DateTime.Now >= p.beginDateUtc && DateTime.Now <= p.endDateUtc)
+				.Distinct()
+				.OrderBy(r => r.beginDateUtc)
+				.ThenBy(r => r.endDateUtc)
+				.ToList();
+
+			DateTime hoy = DateTime.Today;
+			var activasHoy = rangos_fechas.Where(p => hoy >= p.beginDateUtc && hoy <= p.endDateUtc).ToList();*/
+
+			int[] total;
             int total_act = 0;
             int total_nuevo = 0;
 			
-            foreach (var rango in rangosUnicos)
+            foreach (var rango in rangos_fechas)
             {
                 DateTime inicio = rango.beginDateUtc;
                 DateTime fin = rango.endDateUtc;
@@ -653,7 +665,9 @@ namespace IntegracionVTEX
 
                 foreach (decimal promo_nominal in nominal)
                 {
-                    string name = $"promo{promo_nominal.ToString("N0")}_{DateTime.Now.ToString("ddMMyyyy")}";
+					string name = institucional == true ?
+						$"promo_institucional{promo_nominal.ToString("N0")}_{inicio.ToString("ddMMyyyy")}-{fin.ToString("ddMMyyyy")}" :
+						$"promo{promo_nominal.ToString("N0")}_{inicio.ToString("ddMMyyyy")}-{fin.ToString("ddMMyyyy")}";
                     DataRow[] rows_nominal = promos_rango.Select($"nominalDiscountValue='{promo_nominal}'");
                     try
                     {
@@ -699,145 +713,10 @@ namespace IntegracionVTEX
                         continue;
                     }
                 }
-                /*
-                try
-				{
-                    if (rows != null && rows.Length > 0)
-                    {
-                        if (rows.Length > 200)
-                        {
-                            int tamaño = 200;
-                            int complemento = 0;
-                            for (int i = 0; i < rows.Length; i += tamaño)
-                            {
-                                complemento++;
-                                int tamaño_bloque_actual = Math.Min(tamaño, rows.Length - i);
-                                DataRow[] bloque_actual = new DataRow[tamaño_bloque_actual];
-                                Array.Copy(rows, i, bloque_actual, 0, tamaño_bloque_actual);
-                                string name_new = $"{name.Trim()}_{complemento.ToString("0#")}";
-                                total = promotion.CreateUpdatePromotion(name_new, bloque_actual, master);
-                                total_act += total[0];
-                                total_nuevo += total[1];
-                            }
-                        }
-                        else
-                        {
-                            total = promotion.CreateUpdatePromotion(name.Trim(), rows, master);
-                            total_act += total[0];
-                            total_nuevo += total[1];
-                        }
-                    }
-                }
-                catch (AggregateException ex)
-                {
-                    string errores = "";
-                    foreach (Exception item in ex.InnerExceptions)
-                    {
-                        errores += item.Message + ", ";
-                    }
-                    Auxiliary.SaveResultCreatePromo(name, errores.Trim().Trim(','));
-                    continue;
-                }
-                catch (Exception ex)
-                {
-                    Auxiliary.SaveResultCreatePromo(name, ex.Message);
-                    continue;
-                }
-
-
-                /* List<decimal> nominal = promo_rango.AsEnumerable().Where(r => r.Field<decimal>("nominalDiscountValue") > 0).Select(r => r.Field<decimal>("nominalDiscountValue")).Distinct().ToList();
-                 List<decimal> percentual = promo_rango.AsEnumerable().Where(r => r.Field<decimal>("percentualDiscountValue") > 0).Select(r => r.Field<decimal>("percentualDiscountValue")).Distinct().ToList();
-
-                 foreach (decimal promo_percentual in percentual)
-                 {
-                     DataRow[] rows = promo_rango.Select($"percentualDiscountValue='{promo_percentual}'");
-                 }
-
-                 foreach (decimal promo_nominal in nominal)
-                 {
-                     DataRow[] rows = promo_rango.Select($"percentualDiscountValue='{promo_nominal}'");
-                 }*/
             }
             Auxiliary.SaveTotalResult("UpdatePromotion", total_act);
             Auxiliary.SaveTotalResult("CreatePromotion", total_nuevo);
 
-            /* var agrupadas = data.AsEnumerable()
-                 .Select(row => new
-                 {
-                     Nombre = row.Field<string>("name"),
-                     TipoDescuento = row.Field<decimal>("percentualDiscountValue") > 0 ? "PORCENTAJE" :
-                                     row.Field<decimal>("nominalDiscountValue") > 0 ? "VALOR" : "SIN DESCUENTO",
-                     MontoDescuento = row.Field<decimal>("percentualDiscountValue") > 0 ? row.Field<decimal>("percentualDiscountValue") :
-                                      row.Field<decimal>("nominalDiscountValue") > 0 ? row.Field<decimal>("nominalDiscountValue") : 0,
-                     FechaInicio = row.Field<DateTime>("beginDateUtc"),
-                     FechaFin = row.Field<DateTime>("endDateUtc")
-                 })
-                 .GroupBy(x => new { x.TipoDescuento, x.MontoDescuento, x.FechaInicio, x.FechaFin })
-                 .Select(g => new
-                 {
-                     TipoDescuento = g.Key.TipoDescuento,
-                     MontoDescuento = g.Key.MontoDescuento,
-                     FechaInicio = g.Key.FechaInicio,
-                     FechaFin = g.Key.FechaFin,
-                     TotalPromociones = g.Count(),
-                     Nombres = string.Join(", ", g.Select(x => x.Nombre))
-                 })
-                 .ToList();
-
-            int[] total;
-			int total_act = 0;
-			int total_nuevo = 0;
-
-			foreach (string name in names)
-			{
-				try
-				{
-					DataRow[] rows = data.Select($"name='{name}'");
-
-					if (rows != null && rows.Length > 0)
-					{
-						if (rows.Length > 200)
-						{
-							int tamaño = 200;
-							int complemento = 0;
-							for (int i = 0; i < rows.Length; i += tamaño)
-							{
-								complemento++;
-								int tamaño_bloque_actual = Math.Min(tamaño, rows.Length - i);
-								DataRow[] bloque_actual = new DataRow[tamaño_bloque_actual];
-								Array.Copy(rows, i, bloque_actual, 0, tamaño_bloque_actual);
-								string name_new = $"{name.Trim()}_{complemento.ToString("0#")}";
-								total = promotion.CreateUpdatePromotion(name_new, bloque_actual, master);
-								total_act += total[0];
-								total_nuevo += total[1];
-							}
-						}
-						else
-						{
-							total = promotion.CreateUpdatePromotion(name.Trim(), rows, master);
-							total_act += total[0];
-							total_nuevo += total[1];
-						}
-					}
-				}
-				catch (AggregateException ex)
-				{
-					string errores = "";
-					foreach (Exception item in ex.InnerExceptions)
-					{
-						errores += item.Message + ", ";
-					}
-					Auxiliary.SaveResultCreatePromo(name, errores.Trim().Trim(','));
-					continue;
-				}
-				catch (Exception ex)
-				{
-					Auxiliary.SaveResultCreatePromo(name, ex.Message);
-					continue;
-				}
-			}
-			Auxiliary.SaveTotalResult("UpdatePromotion", total_act);
-			Auxiliary.SaveTotalResult("CreatePromotion", total_nuevo);*/
         }
 
 		private static void ProcessOrders(string fecha_ini, string fecha_fin)

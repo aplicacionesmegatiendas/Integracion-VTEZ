@@ -841,3 +841,25 @@ D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\obj
 D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
 D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
 D:\MEGA\IntegracionVTEX_20250902_MT - FW4.6 - query original\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Data\InventoryQuery.txt
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Data\PriceQuery.txt
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Data\ProductsDiscountPlanCriterioQuery.txt
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Data\ProductsQuery.txt
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Data\ProductsSkuQuery.txt
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Data\PromotionQuery.txt
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Data\SkuQuery.txt
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Data\SpecificationQuery.txt
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Data\SubcollectionQuery.txt
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Data\ProductsDiscountQuery.txt
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Data\PromotionCentroOperacionQuery.txt
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe.config
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\IntegracionVTEX.exe
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\IntegracionVTEX.pdb
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe.config
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
