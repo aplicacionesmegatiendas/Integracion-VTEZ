@@ -533,6 +533,7 @@ namespace IntegracionVTEX.Data
 						{
 							PromotionIdCalculator.Product product = new PromotionIdCalculator.Product();
 							product_id = row["products.id"].ToString().Trim();
+
 							Task<string> task_get = Task.Run(() => VTEXGetProductByRefId(product_id));
 							task_get.Wait();
 							dynamic results_get = JsonConvert.DeserializeObject<dynamic>(task_get.Result);

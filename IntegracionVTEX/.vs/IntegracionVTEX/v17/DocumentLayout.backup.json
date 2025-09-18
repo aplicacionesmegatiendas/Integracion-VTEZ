@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\PROYECTOS GIT\\IntegracionVTEX\\IntegracionVTEX\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{96F2725C-4AFD-45A0-ABBA-39B975D0867F}|IntegracionVTEX\\IntegracionVTEX.csproj|e:\\proyectos git\\integracionvtex\\integracionvtex\\integracionvtex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96F2725C-4AFD-45A0-ABBA-39B975D0867F}|IntegracionVTEX\\IntegracionVTEX.csproj|solutionrelative:integracionvtex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,19 +58,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\PROYECTOS GIT\\IntegracionVTEX\\IntegracionVTEX\\IntegracionVTEX\\Program.cs",
-              "RelativeDocumentMoniker": "IntegracionVTEX\\Program.cs",
-              "ToolTip": "E:\\PROYECTOS GIT\\IntegracionVTEX\\IntegracionVTEX\\IntegracionVTEX\\Program.cs",
-              "RelativeToolTip": "IntegracionVTEX\\Program.cs",
-              "ViewState": "AgIAAFACAAAAAAAAAAApwEACAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T21:44:02.955Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -858,8 +858,8 @@ E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Integ
 E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Newtonsoft.Json.dll
 E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Newtonsoft.Json.xml
 E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.AssemblyReference.cache
-E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe.config
 E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.csproj.CoreCompileInputs.cache
 E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
 E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
 E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe.config
