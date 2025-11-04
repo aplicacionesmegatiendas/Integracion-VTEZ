@@ -553,11 +553,11 @@ namespace IntegracionVTEX.Data
 				mail.IsBodyHtml = true;
 				mail.Subject = "Resultado Integración VTEX";
 				mail.Body = body;
-				mail.Priority = MailPriority.High;
+				//mail.Priority = MailPriority.High;
 				
 				SmtpServer.Port = puerto;
 				SmtpServer.Credentials = new System.Net.NetworkCredential(from, pwd);
-				SmtpServer.EnableSsl = true;
+				SmtpServer.EnableSsl = false;//true para gmail
 
 				ServicePointManager.ServerCertificateValidationCallback +=
 							  delegate (
@@ -632,7 +632,7 @@ namespace IntegracionVTEX.Data
 
 				SmtpServer.Port = puerto;
 				SmtpServer.Credentials = new System.Net.NetworkCredential(from, pwd);
-				SmtpServer.EnableSsl = true;
+				SmtpServer.EnableSsl = false;//true en gmail
 
 				ServicePointManager.ServerCertificateValidationCallback +=
 							  delegate (
