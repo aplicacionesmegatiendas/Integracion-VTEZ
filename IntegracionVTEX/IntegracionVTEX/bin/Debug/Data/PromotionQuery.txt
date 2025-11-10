@@ -215,5 +215,4 @@ from
 	#descuentos
 where
 	upper(notas) like UPPER('des_institucional%');
-
 drop table #descuentos;
