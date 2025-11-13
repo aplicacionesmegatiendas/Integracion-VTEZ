@@ -190,9 +190,10 @@ from
 			'204',
 			'202',
 			'401',
-			'402'
+			'402',
+			'210'
 			)
-			)=10
+			)=11
 	)consulta
 	left outer join t120_mc_items on consulta.f110_id_cia=f120_id_cia and f120_rowid=consulta.rowid_item
 	left outer join t121_mc_items_extensiones ie on ie.f121_id_cia=f120_id_cia and ie.f121_rowid_item=f120_rowid
@@ -214,6 +215,7 @@ select
 from
 	#descuentos
 where
-	upper(notas) like UPPER('des_institucional%');
+	upper(notas) like UPPER('des_institucional%')
+	and not(upper(notas) like upper('%no publicar%'));
 
 drop table #descuentos;

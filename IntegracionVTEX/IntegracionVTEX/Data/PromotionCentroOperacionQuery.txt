@@ -174,7 +174,7 @@ from
 			and f111_rowid_promo_frecuencia is null -- sin frecuencias
 			and f110_rowid in (	select f1113_rowid_promo_dscto from t1113_mc_promo_dsctos_co t1113 where
 			t1113.f1113_id_cia=@id_cia and t1113.f1113_rowid_promo_dscto=f110_rowid and t1113.f1113_id_co in (
-			'111','108','101','106','103','105','204','202','401','402')))consulta
+			'111','108','101','106','103','105','204','202','401','402', '210')))consulta
 	left outer join t120_mc_items on consulta.f110_id_cia=f120_id_cia and f120_rowid=consulta.rowid_item
 	left outer join t121_mc_items_extensiones ie on ie.f121_id_cia=f120_id_cia and ie.f121_rowid_item=f120_rowid
 where
@@ -200,5 +200,6 @@ from
 	#descuentos
 where
 	notas is null or not(upper(notas) like upper('des_institucional%'))
+	and notas is null or not(upper(notas) like upper('%no publicar%'))
 	
 drop table #descuentos;
