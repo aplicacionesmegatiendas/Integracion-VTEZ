@@ -216,6 +216,6 @@ from
 	#descuentos
 where
 	upper(notas) like UPPER('des_institucional%')
-	and not(upper(notas) like upper('%no publicar%'));
+	--and not(upper(notas) like upper('%no publicar%'));
 
 drop table #descuentos;

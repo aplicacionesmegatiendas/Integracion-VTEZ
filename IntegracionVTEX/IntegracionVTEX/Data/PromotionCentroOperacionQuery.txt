@@ -199,7 +199,11 @@ select
 from
 	#descuentos
 where
-	notas is null or not(upper(notas) like upper('des_institucional%'))
-	and notas is null or not(upper(notas) like upper('%no publicar%'))
+	--notas is null or not(upper(notas) like upper('des_institucional%'))
+	  notas IS NULL 
+  OR (
+      UPPER(notas) NOT LIKE 'DES_INSTITUCIONAL%'
+      AND UPPER(notas) NOT LIKE '%NO PUBLICAR%'
+  )
 	
 drop table #descuentos;
