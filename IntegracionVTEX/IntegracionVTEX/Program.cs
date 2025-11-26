@@ -140,11 +140,11 @@ namespace IntegracionVTEX
 								Configuracion.CentroOperacion = args[1];
 								Configuracion.Portafolio = args[2];
 								Promotions promotions = new Promotions();
-								DataTable data = promotions.GetPromotionListCentroOperacion();
+								DataTable data = promotions.GetPromotionRegularListCentroOperacion();
 
 								if (data != null)
 								{
-									CreateUpdatePromotion(data, promotions, false, false);
+									CreateUpdateRegularPromotion(data, promotions, false, false);
 								}
 							}
 							break;
@@ -154,14 +154,29 @@ namespace IntegracionVTEX
 								Configuracion.CentroOperacion = args[1];
 								Configuracion.Portafolio = args[2];
 								Promotions promotions = new Promotions();
-								DataTable data = promotions.GetPromotionList();
+								DataTable data = promotions.GetPromotionRegularList();
 
 								if (data != null)
 								{
-									CreateUpdatePromotion(data, promotions, true, true);
+									CreateUpdateRegularPromotion(data, promotions, true, true);
 								}
 							}
 							break;
+						case "M3"://PROMOCIONES POR WL
+							if (configuracion.ObtenerConfiguracion(args[1]) == true)//M, INSTALACION, PORTAFOLIO
+							{
+								Configuracion.CentroOperacion = args[1];
+								Configuracion.Portafolio = args[2];
+								Promotions promotions = new Promotions();
+								DataTable data = promotions.GetPromotionBuyAndWinListCentroOperacion();
+
+								if (data != null)
+								{
+									CreateUpdateBuyAndWinPromotion(data, promotions, false, false);
+								}
+							}
+							break;
+
 						case "P"://CREAR PRODUCTO
 							if (configuracion.ObtenerConfiguracion(args[2]) == true)//P, PORTAFOLIO, INSTALACION
 							{
@@ -574,7 +589,7 @@ namespace IntegracionVTEX
 			Auxiliary.SaveTotalResult("UpdateInventory", total);
 		}
 
-		private static void CreateUpdatePromotion(DataTable data, Promotions promotion, bool master, bool institucional)
+		private static void CreateUpdateRegularPromotion(DataTable data, Promotions promotion, bool master, bool institucional)
 		{
 			List<Rango> rangos_fechas = data.AsEnumerable()
 					.Select(row => new Rango
@@ -623,14 +638,14 @@ namespace IntegracionVTEX
 									DataRow[] bloque_actual = new DataRow[tamaño_bloque_actual];
 									Array.Copy(rows_percentual, i, bloque_actual, 0, tamaño_bloque_actual);
 									string name_new = $"{name.Trim()}_{complemento.ToString("0#")}";
-									total = promotion.CreateUpdatePromotion(name_new, bloque_actual, master);
+									total = promotion.CreateUpdateRegularPromotion(name_new, bloque_actual, master);
 									total_act += total[0];
 									total_nuevo += total[1];
 								}
 							}
 							else
 							{
-								total = promotion.CreateUpdatePromotion(name.Trim(), rows_percentual, master);
+								total = promotion.CreateUpdateRegularPromotion(name.Trim(), rows_percentual, master);
 								total_act += total[0];
 								total_nuevo += total[1];
 							}
@@ -674,14 +689,14 @@ namespace IntegracionVTEX
 									DataRow[] bloque_actual = new DataRow[tamaño_bloque_actual];
 									Array.Copy(rows_nominal, i, bloque_actual, 0, tamaño_bloque_actual);
 									string name_new = $"{name.Trim()}_{complemento.ToString("0#")}";
-									total = promotion.CreateUpdatePromotion(name_new, bloque_actual, master);
+									total = promotion.CreateUpdateRegularPromotion(name_new, bloque_actual, master);
 									total_act += total[0];
 									total_nuevo += total[1];
 								}
 							}
 							else
 							{
-								total = promotion.CreateUpdatePromotion(name.Trim(), rows_nominal, master);
+								total = promotion.CreateUpdateRegularPromotion(name.Trim(), rows_nominal, master);
 								total_act += total[0];
 								total_nuevo += total[1];
 							}
@@ -706,7 +721,196 @@ namespace IntegracionVTEX
 			}
 			Auxiliary.SaveTotalResult("UpdatePromotion", total_act);
 			Auxiliary.SaveTotalResult("CreatePromotion", total_nuevo);
+		}
 
+		private static void CreateUpdateBuyAndWinPromotion(DataTable data, Promotions promotion, bool master, bool institucional)
+		{
+			List<string> names = data.AsEnumerable().Select(r => r.Field<string>("name")).Distinct().ToList();
+			int[] total;
+			int total_act = 0;
+			int total_nuevo = 0;
+
+			foreach (string name in names)
+			{
+				try
+				{
+					DataRow[] rows = data.Select($"name='{name}'");
+
+					if (rows != null && rows.Length > 0)
+					{
+						if (rows.Length > 200)
+						{
+							int tamaño = 200;
+							int complemento = 0;
+							for (int i = 0; i < rows.Length; i += tamaño)
+							{
+								complemento++;
+								int tamaño_bloque_actual = Math.Min(tamaño, rows.Length - i);
+								DataRow[] bloque_actual = new DataRow[tamaño_bloque_actual];
+								Array.Copy(rows, i, bloque_actual, 0, tamaño_bloque_actual);
+								string name_new = $"{name.Trim()}_{complemento.ToString("0#")}";
+								total = promotion.CreateUpdateBuyAndWinPromotion(name_new, bloque_actual, master);
+								total_act += total[0];
+								total_nuevo += total[1];
+							}
+						}
+						else
+						{
+							total = promotion.CreateUpdateBuyAndWinPromotion(name, rows, master);
+							total_act += total[0];
+							total_nuevo += total[1];
+						}
+					}
+				}
+				catch (AggregateException ex)
+				{
+					string errores = "";
+					foreach (Exception item in ex.InnerExceptions)
+					{
+						errores += item.Message + ", ";
+					}
+					Auxiliary.SaveResultCreatePromo(name, errores.Trim().Trim(','));
+					continue;
+				}
+				catch (Exception ex)
+				{
+					Auxiliary.SaveResultCreatePromo(name, ex.Message);
+					continue;
+				}
+			}
+
+			Auxiliary.SaveTotalResult("UpdatePromotion", total_act);
+			Auxiliary.SaveTotalResult("CreatePromotion", total_nuevo);
+			/*List<Rango> rangos_fechas = data.AsEnumerable()
+					.Select(row => new Rango
+					{
+						beginDateUtc = row.Field<DateTime>("beginDateUtc"),
+						endDateUtc = row.Field<DateTime>("endDateUtc")
+					})
+					.GroupBy(r => new { r.beginDateUtc, r.endDateUtc })
+					.Select(g => g.First())
+					.OrderBy(r => r.beginDateUtc)
+					.ThenBy(r => r.endDateUtc)
+					.ToList<Rango>();
+
+			int[] total;
+			int total_act = 0;
+			int total_nuevo = 0;
+
+			foreach (Rango rango in rangos_fechas)
+			{
+				DateTime inicio = rango.beginDateUtc;
+				DateTime fin = rango.endDateUtc;
+
+				DataTable promos_rango = data.Select($"beginDateUtc='{inicio}' and endDateUtc='{fin}'").CopyToDataTable();
+				List<decimal> nominal = promos_rango.AsEnumerable().Where(r => r.Field<decimal>("nominalDiscountValue") > 0).Select(r => r.Field<decimal>("nominalDiscountValue")).Distinct().OrderBy(v => v).ToList();
+				List<decimal> percentual = promos_rango.AsEnumerable().Where(r => r.Field<decimal>("percentualDiscountValue") > 0).Select(r => r.Field<decimal>("percentualDiscountValue")).Distinct().OrderBy(v => v).ToList();
+
+				foreach (decimal promo_percentual in percentual)
+				{
+					string name = institucional == true ?
+						$"promo_institucional{promo_percentual.ToString("N2")}_{inicio.ToString("ddMMyyyy")}-{fin.ToString("ddMMyyyy")}" :
+						$"promo{promo_percentual.ToString("N2")}_{inicio.ToString("ddMMyyyy")}-{fin.ToString("ddMMyyyy")}";
+					DataRow[] rows_percentual = promos_rango.Select($"percentualDiscountValue='{promo_percentual}'");
+
+					try
+					{
+						if (rows_percentual != null && rows_percentual.Length > 0)
+						{
+							if (rows_percentual.Length > 200)
+							{
+								int tamaño = 200;
+								int complemento = 0;
+								for (int i = 0; i < rows_percentual.Length; i += tamaño)
+								{
+									complemento++;
+									int tamaño_bloque_actual = Math.Min(tamaño, rows_percentual.Length - i);
+									DataRow[] bloque_actual = new DataRow[tamaño_bloque_actual];
+									Array.Copy(rows_percentual, i, bloque_actual, 0, tamaño_bloque_actual);
+									string name_new = $"{name.Trim()}_{complemento.ToString("0#")}";
+									total = promotion.CreateUpdateBuyAndWinPromotion(name_new, bloque_actual, master);
+									total_act += total[0];
+									total_nuevo += total[1];
+								}
+							}
+							else
+							{
+								total = promotion.CreateUpdateBuyAndWinPromotion(name.Trim(), rows_percentual, master);
+								total_act += total[0];
+								total_nuevo += total[1];
+							}
+						}
+					}
+					catch (AggregateException ex)
+					{
+						string errores = "";
+						foreach (Exception item in ex.InnerExceptions)
+						{
+							errores += item.Message + ", ";
+						}
+						Auxiliary.SaveResultCreatePromo(name, errores.Trim().Trim(','));
+						continue;
+					}
+					catch (Exception ex)
+					{
+						Auxiliary.SaveResultCreatePromo(name, ex.Message);
+						continue;
+					}
+				}
+
+				foreach (decimal promo_nominal in nominal)
+				{
+					string name = institucional == true ?
+						$"promo_institucional{promo_nominal.ToString("N0")}_{inicio.ToString("ddMMyyyy")}-{fin.ToString("ddMMyyyy")}" :
+						$"promo{promo_nominal.ToString("N0")}_{inicio.ToString("ddMMyyyy")}-{fin.ToString("ddMMyyyy")}";
+					DataRow[] rows_nominal = promos_rango.Select($"nominalDiscountValue='{promo_nominal}'");
+					try
+					{
+						if (rows_nominal != null && rows_nominal.Length > 0)
+						{
+							if (rows_nominal.Length > 200)
+							{
+								int tamaño = 200;
+								int complemento = 0;
+								for (int i = 0; i < rows_nominal.Length; i += tamaño)
+								{
+									complemento++;
+									int tamaño_bloque_actual = Math.Min(tamaño, rows_nominal.Length - i);
+									DataRow[] bloque_actual = new DataRow[tamaño_bloque_actual];
+									Array.Copy(rows_nominal, i, bloque_actual, 0, tamaño_bloque_actual);
+									string name_new = $"{name.Trim()}_{complemento.ToString("0#")}";
+									total = promotion.CreateUpdateBuyAndWinPromotion(name_new, bloque_actual, master);
+									total_act += total[0];
+									total_nuevo += total[1];
+								}
+							}
+							else
+							{
+								total = promotion.CreateUpdateBuyAndWinPromotion(name.Trim(), rows_nominal, master);
+								total_act += total[0];
+								total_nuevo += total[1];
+							}
+						}
+					}
+					catch (AggregateException ex)
+					{
+						string errores = "";
+						foreach (Exception item in ex.InnerExceptions)
+						{
+							errores += item.Message + ", ";
+						}
+						Auxiliary.SaveResultCreatePromo(name, errores.Trim().Trim(','));
+						continue;
+					}
+					catch (Exception ex)
+					{
+						Auxiliary.SaveResultCreatePromo(name, ex.Message);
+						continue;
+					}
+				}
+			}
+			Auxiliary.SaveTotalResult("UpdatePromotion", total_act);
+			Auxiliary.SaveTotalResult("CreatePromotion", total_nuevo);*/
 		}
 
 		private static void ProcessOrders(string fecha_ini, string fecha_fin)
