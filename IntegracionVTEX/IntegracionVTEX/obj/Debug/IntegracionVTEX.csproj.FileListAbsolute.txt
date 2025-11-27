@@ -863,3 +863,4 @@ E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\Integ
 E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
 E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
 E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe.config
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Data\PromotionBuyAndWinCentroOperacionQuery.txt

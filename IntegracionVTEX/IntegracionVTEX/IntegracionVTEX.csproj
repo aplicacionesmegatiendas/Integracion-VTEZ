@@ -111,6 +111,9 @@
     <Content Include="Data\ProductsSkuQuery.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Data\PromotionBuyAndWinCentroOperacionQuery.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\PromotionQuery.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
