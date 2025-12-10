@@ -329,13 +329,13 @@ namespace IntegracionVTEX.Data
 		}
 		//--------------------------------------------------------------------------------------------------------//
 
-		//PARA CREAR PROMOCIONES BUYANDWIN//
-		private async Task<string> VTEXCreateUpdatePromotion(Models.PromotionBuyAndWin promotion, bool master)
+		//PARA CREAR PROMOCIONES FORTHEPRICEOF//
+		private async Task<string> VTEXCreateUpdatePromotion(Models.PromotionForThePriceOf promotion, bool master)
 		{
 			string res = null;
 			try
 			{
-				string uri = Configuracion.UrlCreateOrUpdatePromotion;// "https://whitelabelspruebas--megatiendas.vtexcommercestable.com.br/api/rnb/pvt/calculatorconfiguration"
+				string uri = /*Configuracion.UrlCreateOrUpdatePromotion;*/ "https://whitelabelspruebas--megatiendas.vtexcommercestable.com.br/api/rnb/pvt/calculatorconfiguration";
 				string json = JsonConvert.SerializeObject(promotion);
 				StringContent data = new StringContent(json, Encoding.UTF8, "application/json");
 				HttpClient client = new HttpClient();
@@ -348,8 +348,8 @@ namespace IntegracionVTEX.Data
 				}
 				else
 				{
-					app_key = Configuracion.AppKey;//"vtexappkey-megatiendas-MKNBXJ";
-					app_token = Configuracion.AppToken;//"XMZJPRXNLALRINBLJILOUMOQQSYDHTPYOUCMJRQNFYZLRIQXPBBFDJFAMUMMFALAHPXWQBHIBZAVQZELAOVKCGNUMZRPDADCXYWJTFNZHHZADSWQTHRLNBLALKIXUYIM";
+					app_key = /*Configuracion.AppKey;//*/"vtexappkey-megatiendas-MKNBXJ";
+					app_token = /*Configuracion.AppToken;//*/"XMZJPRXNLALRINBLJILOUMOQQSYDHTPYOUCMJRQNFYZLRIQXPBBFDJFAMUMMFALAHPXWQBHIBZAVQZELAOVKCGNUMZRPDADCXYWJTFNZHHZADSWQTHRLNBLALKIXUYIM";
 				}
 				HttpRequestMessage request = new HttpRequestMessage
 				{
@@ -396,7 +396,7 @@ namespace IntegracionVTEX.Data
 			return res;
 		}
 
-		private async Task<string> VTEXCreateUpdatePromotionIdcalculator(Models.PromotionIdCalculatorBuyAndWin promotion, bool master)
+		private async Task<string> VTEXCreateUpdatePromotionIdcalculator(Models.PromotionIdCalculatorForThePriceOf promotion, bool master)
 		{
 			string res = null;
 			try
@@ -565,13 +565,13 @@ namespace IntegracionVTEX.Data
 			return res;
 		}
 
-		public DataTable GetPromotionBuyAndWinListCentroOperacion()
+		public DataTable GetPromotionForThePriceOfListCentroOperacion()
 		{
 			DataTable res = null;
 			try
 			{
 				int id_cia = Convert.ToInt32(section.Settings["id_cia"].Value);
-				string SQL = File.ReadAllText("Data\\PromotionBuyAndWinCentroOperacionQuery.txt");
+				string SQL = File.ReadAllText("Data\\PromotionForThePriceOfCentroOperacionQuery.txt");
 
 				SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["unoee"].ConnectionString);
 				conn.Open();
@@ -597,14 +597,45 @@ namespace IntegracionVTEX.Data
 			return res;
 		}
 
-		public int[] CreateUpdateBuyAndWinPromotion(string name, DataRow[] rows, bool master)
+		public DataTable GetPromotionForThePriceOfList()
+		{
+			DataTable res = null;
+			try
+			{
+				int id_cia = Convert.ToInt32(section.Settings["id_cia"].Value);
+				string SQL = File.ReadAllText("Data\\PromotionForThePriceOfQuery.txt");
+
+				SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["unoee"].ConnectionString);
+				conn.Open();
+				SqlCommand cmd = new SqlCommand(SQL, conn);
+				cmd.CommandType = CommandType.Text;
+				cmd.CommandTimeout = 600;
+				cmd.Parameters.AddWithValue("@id_cia", id_cia);
+				cmd.Parameters.AddWithValue("@id_portafolio", Configuracion.Portafolio);
+				
+				SqlDataReader reader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+				if (reader.HasRows)
+				{
+					res = new DataTable();
+					res.Load(reader);
+				}
+				reader.Close();
+			}
+			catch (Exception ex)
+			{
+				throw new Exception("Error al consultar productos: " + ex.Message);
+			}
+			return res;
+		}
+
+		public int[] CreateUpdateForThePriceOfPromotion(string name, DataRow[] rows, bool master)
 		{
 			string id_calculator_configuration = "";
 			int[] total = new int[2];
 			try
 			{
-				Models.PromotionBuyAndWin promotion_buyandwin = null;
-				Models.PromotionIdCalculatorBuyAndWin promotion_id_calculator_buyandwin = null;
+				Models.PromotionForThePriceOf promotion_for_the_price_of = null;
+				Models.PromotionIdCalculatorForThePriceOf promotion_id_calculator_for_the_price_of = null;
 
 				Task<string> task_get_promotion = Task.Run(() => VTEXSearchPromotionByName(name, master));
 				task_get_promotion.Wait();
@@ -622,80 +653,75 @@ namespace IntegracionVTEX.Data
 					string endDateUtc = TimeZoneInfo.ConvertTime(Convert.ToDateTime(rows[0]["endDateUtc"]), TimeZoneInfo.Local, britishZone).ToString("yyyy-MM-ddTHH:mm:ss.000Z");
 					string lastModified = TimeZoneInfo.ConvertTime(Convert.ToDateTime(rows[0]["lastModified"]), TimeZoneInfo.Local, britishZone).ToString("yyyy-MM-ddTHH:mm:ss.000Z");
 
-					promotion_id_calculator_buyandwin = new Models.PromotionIdCalculatorBuyAndWin();
-					promotion_id_calculator_buyandwin.idCalculatorConfiguration = id_calculator_configuration;
-					promotion_id_calculator_buyandwin.name = name;
-					promotion_id_calculator_buyandwin.description = name;
-					promotion_id_calculator_buyandwin.beginDateUtc = beginDateUtc;
-					promotion_id_calculator_buyandwin.endDateUtc = endDateUtc;
-					promotion_id_calculator_buyandwin.lastModified = lastModified;
-					promotion_id_calculator_buyandwin.daysAgoOfPurchases = 0;
-					promotion_id_calculator_buyandwin.isActive = true;
-					promotion_id_calculator_buyandwin.isArchived = false;
-					promotion_id_calculator_buyandwin.isFeatured = true;//aqui era true
-					promotion_id_calculator_buyandwin.disableDeal = false;
-					promotion_id_calculator_buyandwin.offset = -5;
-					promotion_id_calculator_buyandwin.activateGiftsMultiplier = false;
-					promotion_id_calculator_buyandwin.newOffset = -5.0f;
-					promotion_id_calculator_buyandwin.maxPricesPerItems = new string[] { };
-					promotion_id_calculator_buyandwin.cumulative = false;
+					promotion_id_calculator_for_the_price_of = new Models.PromotionIdCalculatorForThePriceOf();
+					promotion_id_calculator_for_the_price_of.idCalculatorConfiguration = id_calculator_configuration;
+					promotion_id_calculator_for_the_price_of.name = name;
+					promotion_id_calculator_for_the_price_of.description = name;
+					promotion_id_calculator_for_the_price_of.beginDateUtc = beginDateUtc;
+					promotion_id_calculator_for_the_price_of.endDateUtc = endDateUtc;
+					promotion_id_calculator_for_the_price_of.lastModified = lastModified;
+					promotion_id_calculator_for_the_price_of.daysAgoOfPurchases = 0;
+					promotion_id_calculator_for_the_price_of.isActive = true;
+					promotion_id_calculator_for_the_price_of.isArchived = false;
+					promotion_id_calculator_for_the_price_of.isFeatured = true;//aqui era true
+					promotion_id_calculator_for_the_price_of.disableDeal = false;
+					promotion_id_calculator_for_the_price_of.offset = -5;
+					promotion_id_calculator_for_the_price_of.activateGiftsMultiplier = false;
+					promotion_id_calculator_for_the_price_of.newOffset = -5.0f;
+					promotion_id_calculator_for_the_price_of.maxPricesPerItems = new string[] { };
+					promotion_id_calculator_for_the_price_of.cumulative = false;
 
-					promotion_id_calculator_buyandwin.discountType = "buyAndWin";
-					promotion_id_calculator_buyandwin.nominalDiscountValue = 0.0f;
-					promotion_id_calculator_buyandwin.percentualDiscountValue = 0.0f;
+					promotion_id_calculator_for_the_price_of.discountType = "forThePriceOf";
+					promotion_id_calculator_for_the_price_of.nominalDiscountValue = 0.0f;
+					promotion_id_calculator_for_the_price_of.percentualDiscountValue = 0.0f;
 
-					promotion_id_calculator_buyandwin.nominalShippingDiscountValue = 0.0f;
-					promotion_id_calculator_buyandwin.absoluteShippingDiscountValue = 0.0f;
-					promotion_id_calculator_buyandwin.nominalDiscountType = "cart";
-					promotion_id_calculator_buyandwin.maximumUnitPriceDiscount = 0.0f;
-					promotion_id_calculator_buyandwin.rebatePercentualDiscountValue = 0.0f;
-					promotion_id_calculator_buyandwin.percentualShippingDiscountValue = 0.0f;
-					promotion_id_calculator_buyandwin.percentualTax = 0.0f;
-					promotion_id_calculator_buyandwin.shippingPercentualTax = 0.0f;
-					promotion_id_calculator_buyandwin.percentualDiscountValueList1 = 0.0f;
-					promotion_id_calculator_buyandwin.percentualDiscountValueList2 = 0.0f;
-					promotion_id_calculator_buyandwin.nominalRewardValue = 0.0f;
-					promotion_id_calculator_buyandwin.percentualRewardValue = 0.0f;
-					promotion_id_calculator_buyandwin.orderStatusRewardValue = "invoiced";
-					promotion_id_calculator_buyandwin.maxNumberOfAffectedItems = 0;
-					promotion_id_calculator_buyandwin.maxNumberOfAffectedItemsGroupKey = "perCart";
-					promotion_id_calculator_buyandwin.applyToAllShippings = false;
-					promotion_id_calculator_buyandwin.nominalTax = 0.0f;
+					promotion_id_calculator_for_the_price_of.discountExpression = "";
+
+					promotion_id_calculator_for_the_price_of.nominalShippingDiscountValue = 0.0f;
+					promotion_id_calculator_for_the_price_of.absoluteShippingDiscountValue = 0.0f;
+					promotion_id_calculator_for_the_price_of.nominalDiscountType = "cart";
+					promotion_id_calculator_for_the_price_of.maximumUnitPriceDiscount = 0.0f;
+					promotion_id_calculator_for_the_price_of.rebatePercentualDiscountValue = 0.0f;
+					promotion_id_calculator_for_the_price_of.percentualShippingDiscountValue = 0.0f;
+					promotion_id_calculator_for_the_price_of.percentualTax = 0.0f;
+					promotion_id_calculator_for_the_price_of.shippingPercentualTax = 0.0f;
+					promotion_id_calculator_for_the_price_of.percentualDiscountValueList1 = 0.0f;
+					promotion_id_calculator_for_the_price_of.percentualDiscountValueList2 = 0.0f;
+					promotion_id_calculator_for_the_price_of.nominalRewardValue = 0.0f;
+					promotion_id_calculator_for_the_price_of.percentualRewardValue = 0.0f;
+					promotion_id_calculator_for_the_price_of.orderStatusRewardValue = "invoiced";
+					promotion_id_calculator_for_the_price_of.maxNumberOfAffectedItems = 0;
+					promotion_id_calculator_for_the_price_of.maxNumberOfAffectedItemsGroupKey = "perCart";
+					promotion_id_calculator_for_the_price_of.applyToAllShippings = false;
+					promotion_id_calculator_for_the_price_of.nominalTax = 0.0f;
 					if (master == true)
-						promotion_id_calculator_buyandwin.origin = "Marketplace";
+						promotion_id_calculator_for_the_price_of.origin = "Marketplace";
 					else
-						promotion_id_calculator_buyandwin.origin = "Fulfillment";
-					promotion_id_calculator_buyandwin.idSellerIsInclusive = true;
-					promotion_id_calculator_buyandwin.idsSalesChannel = new string[1] { "1" };//new string[] { };
-					promotion_id_calculator_buyandwin.areSalesChannelIdsExclusive = false;
-					promotion_id_calculator_buyandwin.marketingTags = new string[] { };
-					promotion_id_calculator_buyandwin.marketingTagsAreNotInclusive = false;
-					promotion_id_calculator_buyandwin.paymentsMethods = new string[] { };
-					promotion_id_calculator_buyandwin.stores = new string[] { };
-					promotion_id_calculator_buyandwin.campaigns = new string[] { };
-					promotion_id_calculator_buyandwin.storesAreInclusive = true;//nuevo
-					promotion_id_calculator_buyandwin.categories = new string[] { };
-					promotion_id_calculator_buyandwin.categoriesAreInclusive = true;
-					promotion_id_calculator_buyandwin.brands = new string[] { };
-					promotion_id_calculator_buyandwin.brandsAreInclusive = true;
+						promotion_id_calculator_for_the_price_of.origin = "Fulfillment";
+					promotion_id_calculator_for_the_price_of.idSellerIsInclusive = true;
+					promotion_id_calculator_for_the_price_of.idsSalesChannel = new string[1] { "1" };//new string[] { };
+					promotion_id_calculator_for_the_price_of.areSalesChannelIdsExclusive = false;
+					promotion_id_calculator_for_the_price_of.marketingTags = new string[] { };
+					promotion_id_calculator_for_the_price_of.marketingTagsAreNotInclusive = false;
+					promotion_id_calculator_for_the_price_of.paymentsMethods = new string[] { };
+					promotion_id_calculator_for_the_price_of.stores = new string[] { };
+					promotion_id_calculator_for_the_price_of.campaigns = new string[] { };
+					promotion_id_calculator_for_the_price_of.storesAreInclusive = true;//nuevo
+					promotion_id_calculator_for_the_price_of.categories = new string[] { };
+					promotion_id_calculator_for_the_price_of.categoriesAreInclusive = true;
+					promotion_id_calculator_for_the_price_of.brands = new string[] { };
+					promotion_id_calculator_for_the_price_of.brandsAreInclusive = true;
 
-
-					List<PromotionIdCalculatorBuyAndWin.Gift> gifts = new List<PromotionIdCalculatorBuyAndWin.Gift>();
-					List<PromotionIdCalculatorBuyAndWin.Product> products = new List<PromotionIdCalculatorBuyAndWin.Product>();
-					int product_minimum_quantity_buy_together = 1;// Convert.ToInt32(rows[0]["compra"]);
-					int product_gitf_quantity = 1;// Convert.ToInt32(rows[0]["lleva"]);
-
-					bool enableBuyTogetherPerSku = false;
-					//if (Convert.ToString(rows[0]["lleva"]).Equals("igual"))
-					//	enableBuyTogetherPerSku = true;
+					List<PromotionIdCalculatorForThePriceOf.Product> products = new List<PromotionIdCalculatorForThePriceOf.Product>();
+					int minimum_quantity_buy_together =  Convert.ToInt32(rows[0]["compra"]);
+					int quantity_to_affect_buy_together = Convert.ToInt32(rows[0]["lleva"]);
 
 					foreach (DataRow row in rows)
 					{
 						string product_id = "";
 						try
 						{
-							PromotionIdCalculatorBuyAndWin.Gift gift = new PromotionIdCalculatorBuyAndWin.Gift();
-							PromotionIdCalculatorBuyAndWin.Product product = new PromotionIdCalculatorBuyAndWin.Product();
+							PromotionIdCalculatorForThePriceOf.Product product = new PromotionIdCalculatorForThePriceOf.Product();
 							product_id = row["products.id"].ToString().Trim();
 
 							Task<string> task_get = Task.Run(() => VTEXGetProductByRefId(product_id));
@@ -704,11 +730,6 @@ namespace IntegracionVTEX.Data
 							task_get.Dispose();
 							if (results_get != null)
 							{
-								gift.id = results_get.Id;
-								gift.name = results_get.Name;
-								gift.quantity = product_gitf_quantity;
-								gifts.Add(gift);
-
 								product.id = results_get.Id;
 								product.name = results_get.Name;
 								products.Add(product);
@@ -720,63 +741,63 @@ namespace IntegracionVTEX.Data
 						}
 					}
 
-					promotion_id_calculator_buyandwin.skusGift = new PromotionIdCalculatorBuyAndWin.SkusGift() { quantitySelectable = product_gitf_quantity, gifts = gifts };//quantitySelectable=cantida de items de regalo
+					promotion_id_calculator_for_the_price_of.skusGift = new PromotionIdCalculatorForThePriceOf.SkusGift() { quantitySelectable = 0, gifts = new object[] { } };//quantitySelectable=cantida de items de regalo
 
-					promotion_id_calculator_buyandwin.products = new object[] { };
-					promotion_id_calculator_buyandwin.productsAreInclusive = true;
-					promotion_id_calculator_buyandwin.skus = new string[] { };
-					promotion_id_calculator_buyandwin.skusAreInclusive = true;
-					promotion_id_calculator_buyandwin.collections1BuyTogether = new string[] { };
-					promotion_id_calculator_buyandwin.collections2BuyTogether = new string[] { };
-					promotion_id_calculator_buyandwin.minimumQuantityBuyTogether = product_minimum_quantity_buy_together;
-					promotion_id_calculator_buyandwin.quantityToAffectBuyTogether = 0;
-					promotion_id_calculator_buyandwin.enableBuyTogetherPerSku = enableBuyTogetherPerSku;//depende de si es el mismo producto o puede ser diferente
-					promotion_id_calculator_buyandwin.listSku1BuyTogether = products;
-					promotion_id_calculator_buyandwin.listSku2BuyTogether = new string[] { };
-					promotion_id_calculator_buyandwin.coupon = new string[] { };
-					promotion_id_calculator_buyandwin.totalValueFloor = 0;
-					promotion_id_calculator_buyandwin.totalValueCeling = 0;
-					promotion_id_calculator_buyandwin.totalValueMode = "IncludeMatchedItems";
-					promotion_id_calculator_buyandwin.collections = new string[] { };
-					promotion_id_calculator_buyandwin.collectionsIsInclusive = true;
-					promotion_id_calculator_buyandwin.restrictionsBins = new string[] { };
-					promotion_id_calculator_buyandwin.cardIssuers = new string[] { };
-					promotion_id_calculator_buyandwin.totalValuePurchase = 0.0f;
-					promotion_id_calculator_buyandwin.slasIds = new string[] { };
-					promotion_id_calculator_buyandwin.isSlaSelected = false;
-					promotion_id_calculator_buyandwin.isFirstBuy = false;
-					promotion_id_calculator_buyandwin.firstBuyIsProfileOptimistic = true;
-					promotion_id_calculator_buyandwin.compareListPriceAndPrice = false;
-					promotion_id_calculator_buyandwin.isDifferentListPriceAndPrice = false;
-					promotion_id_calculator_buyandwin.zipCodeRanges = new string[] { };
-					promotion_id_calculator_buyandwin.itemMaxPrice = 0.0f;
-					promotion_id_calculator_buyandwin.itemMinPrice = 0.0f;
-					promotion_id_calculator_buyandwin.isMinMaxInstallments = false;
-					promotion_id_calculator_buyandwin.minInstallment = 0;
-					promotion_id_calculator_buyandwin.maxInstallment = 0;
-					promotion_id_calculator_buyandwin.merchants = new string[] { };
-					promotion_id_calculator_buyandwin.clusterExpressions = new string[] { };
-					promotion_id_calculator_buyandwin.piiClusterExpressions = new string[] { };
-					promotion_id_calculator_buyandwin.clusterOperator = "all";
-					promotion_id_calculator_buyandwin.paymentsRules = new string[] { };
-					promotion_id_calculator_buyandwin.giftListTypes = new string[] { };
-					promotion_id_calculator_buyandwin.productsSpecifications = new string[] { };
-					promotion_id_calculator_buyandwin.affiliates = new string[] { };
-					promotion_id_calculator_buyandwin.maxUsage = 0;
-					promotion_id_calculator_buyandwin.maxUsagePerClient = 0;
-					promotion_id_calculator_buyandwin.shouldDistributeDiscountAmongMatchedItems = false;
-					promotion_id_calculator_buyandwin.multipleUsePerClient = false;
-					promotion_id_calculator_buyandwin.accumulateWithManualPrice = false;
-					promotion_id_calculator_buyandwin.type = "buyAndWin";
-					promotion_id_calculator_buyandwin.useNewProgressiveAlgorithm = false;
-					promotion_id_calculator_buyandwin.percentualDiscountValueList = new int[] { };
+					promotion_id_calculator_for_the_price_of.products = new object[] { };
+					promotion_id_calculator_for_the_price_of.productsAreInclusive = true;
+					promotion_id_calculator_for_the_price_of.skus = new string[] { };
+					promotion_id_calculator_for_the_price_of.skusAreInclusive = true;
+					promotion_id_calculator_for_the_price_of.collections1BuyTogether = new string[] { };
+					promotion_id_calculator_for_the_price_of.collections2BuyTogether = new string[] { };
+					promotion_id_calculator_for_the_price_of.minimumQuantityBuyTogether = minimum_quantity_buy_together;
+					promotion_id_calculator_for_the_price_of.quantityToAffectBuyTogether = quantity_to_affect_buy_together;
+					promotion_id_calculator_for_the_price_of.enableBuyTogetherPerSku = true;
+					promotion_id_calculator_for_the_price_of.listSku1BuyTogether = products;
+					promotion_id_calculator_for_the_price_of.listSku2BuyTogether = new string[] { };
+					promotion_id_calculator_for_the_price_of.coupon = new string[] { };
+					promotion_id_calculator_for_the_price_of.totalValueFloor = 0;
+					promotion_id_calculator_for_the_price_of.totalValueCeling = 0;
+					promotion_id_calculator_for_the_price_of.totalValueMode = "IncludeMatchedItems";
+					promotion_id_calculator_for_the_price_of.collections = new string[] { };
+					promotion_id_calculator_for_the_price_of.collectionsIsInclusive = true;
+					promotion_id_calculator_for_the_price_of.restrictionsBins = new string[] { };
+					promotion_id_calculator_for_the_price_of.cardIssuers = new string[] { };
+					promotion_id_calculator_for_the_price_of.totalValuePurchase = 0.0f;
+					promotion_id_calculator_for_the_price_of.slasIds = new string[] { };
+					promotion_id_calculator_for_the_price_of.isSlaSelected = false;
+					promotion_id_calculator_for_the_price_of.isFirstBuy = false;
+					promotion_id_calculator_for_the_price_of.firstBuyIsProfileOptimistic = true;
+					promotion_id_calculator_for_the_price_of.compareListPriceAndPrice = false;
+					promotion_id_calculator_for_the_price_of.isDifferentListPriceAndPrice = false;
+					promotion_id_calculator_for_the_price_of.zipCodeRanges = new string[] { };
+					promotion_id_calculator_for_the_price_of.itemMaxPrice = 0.0f;
+					promotion_id_calculator_for_the_price_of.itemMinPrice = 0.0f;
+					promotion_id_calculator_for_the_price_of.isMinMaxInstallments = false;
+					promotion_id_calculator_for_the_price_of.minInstallment = 0;
+					promotion_id_calculator_for_the_price_of.maxInstallment = 0;
+					promotion_id_calculator_for_the_price_of.merchants = new string[] { };
+					promotion_id_calculator_for_the_price_of.clusterExpressions = new string[] { };
+					promotion_id_calculator_for_the_price_of.piiClusterExpressions = new string[] { };
+					promotion_id_calculator_for_the_price_of.clusterOperator = "all";
+					promotion_id_calculator_for_the_price_of.paymentsRules = new string[] { };
+					promotion_id_calculator_for_the_price_of.giftListTypes = new string[] { };
+					promotion_id_calculator_for_the_price_of.productsSpecifications = new string[] { };
+					promotion_id_calculator_for_the_price_of.affiliates = new string[] { };
+					promotion_id_calculator_for_the_price_of.maxUsage = 0;
+					promotion_id_calculator_for_the_price_of.maxUsagePerClient = 0;
+					promotion_id_calculator_for_the_price_of.shouldDistributeDiscountAmongMatchedItems = false;
+					promotion_id_calculator_for_the_price_of.multipleUsePerClient = false;
+					promotion_id_calculator_for_the_price_of.accumulateWithManualPrice = false;
+					promotion_id_calculator_for_the_price_of.type = "forThePriceOf";
+					promotion_id_calculator_for_the_price_of.useNewProgressiveAlgorithm = false;
+					promotion_id_calculator_for_the_price_of.percentualDiscountValueList = new int[] { };
 
 					if (products.Count > 0)
 					{
 						string respuesta = "";
 						try
 						{
-							Task<string> task_create_update_promotion = Task.Run(() => VTEXCreateUpdatePromotionIdcalculator(promotion_id_calculator_buyandwin, master));
+							Task<string> task_create_update_promotion = Task.Run(() => VTEXCreateUpdatePromotionIdcalculator(promotion_id_calculator_for_the_price_of, master));
 							task_create_update_promotion.Wait();
 							respuesta = Convert.ToString(task_create_update_promotion.Result);
 							task_create_update_promotion.Dispose();
@@ -806,79 +827,79 @@ namespace IntegracionVTEX.Data
 					string endDateUtc = TimeZoneInfo.ConvertTime(Convert.ToDateTime(rows[0]["endDateUtc"]), TimeZoneInfo.Local, britishZone).ToString("yyyy-MM-ddTHH:mm:ss.000Z");
 					string lastModified = TimeZoneInfo.ConvertTime(Convert.ToDateTime(rows[0]["lastModified"]), TimeZoneInfo.Local, britishZone).ToString("yyyy-MM-ddTHH:mm:ss.000Z");
 					Console.WriteLine($"Creando promoción {name}");
-					promotion_buyandwin = new Models.PromotionBuyAndWin();
-					promotion_buyandwin.name = name;
-					promotion_buyandwin.description = name;
-					promotion_buyandwin.beginDateUtc = beginDateUtc;
-					promotion_buyandwin.endDateUtc = endDateUtc;
-					promotion_buyandwin.lastModified = lastModified;
-					promotion_buyandwin.daysAgoOfPurchases = 0;
-					promotion_buyandwin.isActive = true;
-					promotion_buyandwin.isArchived = false;
-					promotion_buyandwin.isFeatured = true;
-					promotion_buyandwin.disableDeal = false;
-					promotion_buyandwin.offset = -5;
-					promotion_buyandwin.activateGiftsMultiplier = false;
-					promotion_buyandwin.newOffset = -5.0f;
-					promotion_buyandwin.maxPricesPerItems = new string[] { };
-					promotion_buyandwin.cumulative = false;
-					promotion_buyandwin.nominalShippingDiscountValue = 0.0f;
-					promotion_buyandwin.absoluteShippingDiscountValue = 0.0f;
+					promotion_for_the_price_of = new Models.PromotionForThePriceOf();
+					promotion_for_the_price_of.name = name;
+					promotion_for_the_price_of.description = name;
+					promotion_for_the_price_of.beginDateUtc = beginDateUtc;
+					promotion_for_the_price_of.endDateUtc = endDateUtc;
+					promotion_for_the_price_of.lastModified = lastModified;
+					promotion_for_the_price_of.daysAgoOfPurchases = 0;
+					promotion_for_the_price_of.isActive = false;
+					promotion_for_the_price_of.isArchived = false;
+					promotion_for_the_price_of.isFeatured = true;
+					promotion_for_the_price_of.disableDeal = false;
+					promotion_for_the_price_of.offset = -5;
+					promotion_for_the_price_of.activateGiftsMultiplier = false;
+					promotion_for_the_price_of.newOffset = -5.0f;
+					promotion_for_the_price_of.maxPricesPerItems = new string[] { };
+					promotion_for_the_price_of.cumulative = false;
+					promotion_for_the_price_of.nominalShippingDiscountValue = 0.0f;
+					promotion_for_the_price_of.absoluteShippingDiscountValue = 0.0f;
 
-					promotion_buyandwin.discountType = "buyAndWin";
-					promotion_buyandwin.nominalDiscountValue = 0.0f;
-					promotion_buyandwin.percentualDiscountValue = 0.0f;
+					promotion_for_the_price_of.discountType = "forThePriceOf";
+					promotion_for_the_price_of.nominalDiscountValue = 0.0f;
 
-					promotion_buyandwin.nominalDiscountType = "cart";
-					promotion_buyandwin.maximumUnitPriceDiscount = 0.0f;
-					promotion_buyandwin.rebatePercentualDiscountValue = 0.0f;
-					promotion_buyandwin.percentualShippingDiscountValue = 0.0f;
-					promotion_buyandwin.percentualTax = 0.0f;
-					promotion_buyandwin.shippingPercentualTax = 0.0f;
-					promotion_buyandwin.percentualDiscountValueList1 = 0.0f;
-					promotion_buyandwin.percentualDiscountValueList2 = 0.0f;
+					float percentualDiscountValue = Convert.ToSingle(rows[0]["percentualDiscountValue"]);
+					promotion_for_the_price_of.percentualDiscountValue = percentualDiscountValue;
 
-					promotion_buyandwin.nominalRewardValue = 0.0f;
-					promotion_buyandwin.percentualRewardValue = 0.0f;
-					promotion_buyandwin.orderStatusRewardValue = "invoiced";
-					promotion_buyandwin.maxNumberOfAffectedItems = 0;
-					promotion_buyandwin.maxNumberOfAffectedItemsGroupKey = "perCart";
-					promotion_buyandwin.applyToAllShippings = false;
-					promotion_buyandwin.nominalTax = 0.0f;
+					promotion_for_the_price_of.discountExpression = "";
+
+					promotion_for_the_price_of.nominalDiscountType = "cart";
+					promotion_for_the_price_of.maximumUnitPriceDiscount = 0.0f;
+					promotion_for_the_price_of.rebatePercentualDiscountValue = 0.0f;
+					promotion_for_the_price_of.percentualShippingDiscountValue = 0.0f;
+					promotion_for_the_price_of.percentualTax = 0.0f;
+					promotion_for_the_price_of.shippingPercentualTax = 0.0f;
+					promotion_for_the_price_of.percentualDiscountValueList1 = 0.0f;
+					promotion_for_the_price_of.percentualDiscountValueList2 = 0.0f;
+
+					promotion_for_the_price_of.skusGift = new PromotionForThePriceOf.SkusGift() { quantitySelectable = 0, gifts = new object[] { } };//quantitySelectable=cantida de items de regalo
+
+					promotion_for_the_price_of.nominalRewardValue = 0.0f;
+					promotion_for_the_price_of.percentualRewardValue = 0.0f;
+					promotion_for_the_price_of.orderStatusRewardValue = "invoiced";
+					promotion_for_the_price_of.maxNumberOfAffectedItems = 0;
+					promotion_for_the_price_of.maxNumberOfAffectedItemsGroupKey = "perCart";
+					promotion_for_the_price_of.applyToAllShippings = false;
+					promotion_for_the_price_of.nominalTax = 0.0f;
 					if (master == true)
-						promotion_buyandwin.origin = "Marketplace";
+						promotion_for_the_price_of.origin = "Marketplace";
 					else
-						promotion_buyandwin.origin = "Fulfillment";
-					promotion_buyandwin.idSellerIsInclusive = true;
-					promotion_buyandwin.idsSalesChannel = new string[1] { "1" };//new string[] { };
-					promotion_buyandwin.areSalesChannelIdsExclusive = false;
-					promotion_buyandwin.marketingTags = new string[] { };
-					promotion_buyandwin.marketingTagsAreNotInclusive = false;
-					promotion_buyandwin.paymentsMethods = new string[] { };
-					promotion_buyandwin.stores = new string[] { };
-					promotion_buyandwin.campaigns = new string[] { };
-					promotion_buyandwin.storesAreInclusive = true;//nuevo
-					promotion_buyandwin.categories = new string[] { };
-					promotion_buyandwin.categoriesAreInclusive = true;
-					promotion_buyandwin.brands = new string[] { };
-					promotion_buyandwin.brandsAreInclusive = true;
+						promotion_for_the_price_of.origin = "Fulfillment";
+					promotion_for_the_price_of.idSellerIsInclusive = true;
+					promotion_for_the_price_of.idsSalesChannel = new string[1] { "1" };//new string[] { };
+					promotion_for_the_price_of.areSalesChannelIdsExclusive = false;
+					promotion_for_the_price_of.marketingTags = new string[] { };
+					promotion_for_the_price_of.marketingTagsAreNotInclusive = false;
+					promotion_for_the_price_of.paymentsMethods = new string[] { };
+					promotion_for_the_price_of.stores = new string[] { };
+					promotion_for_the_price_of.campaigns = new string[] { };
+					promotion_for_the_price_of.storesAreInclusive = true;//nuevo
+					promotion_for_the_price_of.categories = new string[] { };
+					promotion_for_the_price_of.categoriesAreInclusive = true;
+					promotion_for_the_price_of.brands = new string[] { };
+					promotion_for_the_price_of.brandsAreInclusive = true;
 
-					List<PromotionBuyAndWin.Gift> gifts = new List<PromotionBuyAndWin.Gift>();
-					List<PromotionBuyAndWin.Product> products = new List<PromotionBuyAndWin.Product>();
-					int product_minimum_quantity_buy_together = 1;// Convert.ToInt32(rows[0]["compra"]);
-					int product_gitf_quantity = 1;// Convert.ToInt32(rows[0]["lleva"]);
-
-					bool enableBuyTogetherPerSku = false;
-					//if (Convert.ToString(rows[0]["lleva"]).Equals("igual"))
-					//	enableBuyTogetherPerSku = true;
+					List<PromotionForThePriceOf.Product> products = new List<PromotionForThePriceOf.Product>();
+					int minimum_quantity_buy_together = Convert.ToInt32(rows[0]["compra"]);
+					int quantity_to_affect_buy_together = Convert.ToInt32(rows[0]["lleva"]);
 
 					foreach (DataRow row in rows)
 					{
 						string product_id = "";
 						try
 						{
-							PromotionBuyAndWin.Gift gift = new PromotionBuyAndWin.Gift();
-							PromotionBuyAndWin.Product product = new PromotionBuyAndWin.Product();
+							PromotionForThePriceOf.Product product = new PromotionForThePriceOf.Product();
 							product_id = row["products.id"].ToString().Trim();
 
 							Task<string> task_get = Task.Run(() => VTEXGetProductByRefId(product_id));
@@ -887,11 +908,6 @@ namespace IntegracionVTEX.Data
 							task_get.Dispose();
 							if (results_get != null)
 							{
-								gift.id = results_get.Id;
-								gift.name = results_get.Name;
-								gift.quantity = product_gitf_quantity;
-								gifts.Add(gift);
-
 								product.id = results_get.Id;
 								product.name = results_get.Name;
 								products.Add(product);
@@ -902,62 +918,61 @@ namespace IntegracionVTEX.Data
 							continue;
 						}
 					}
-
-					promotion_buyandwin.skusGift = new PromotionBuyAndWin.SkusGift() { quantitySelectable = product_gitf_quantity, gifts = gifts };//quantitySelectable=cantida de items de regalo
-					promotion_buyandwin.products = new object[] { };
-					promotion_buyandwin.productsAreInclusive = true;
-					promotion_buyandwin.skus = new string[] { };
-					promotion_buyandwin.skusAreInclusive = true;
-					promotion_buyandwin.collections1BuyTogether = new string[] { };
-					promotion_buyandwin.collections2BuyTogether = new string[] { };
-					promotion_buyandwin.minimumQuantityBuyTogether = product_minimum_quantity_buy_together;//cantidad minima que se debe comprar para que aplique la promo
-					promotion_buyandwin.quantityToAffectBuyTogether = 0;
-					promotion_buyandwin.enableBuyTogetherPerSku = enableBuyTogetherPerSku;
-					promotion_buyandwin.listSku1BuyTogether = products;
-					promotion_buyandwin.listSku2BuyTogether = new string[] { };
-					promotion_buyandwin.coupon = new string[] { };
-					promotion_buyandwin.totalValueFloor = 0;
-					promotion_buyandwin.totalValueCeling = 0;
-					promotion_buyandwin.totalValueMode = "IncludeMatchedItems";
-					promotion_buyandwin.collections = new string[] { };
-					promotion_buyandwin.collectionsIsInclusive = true;
-					promotion_buyandwin.restrictionsBins = new string[] { };
-					promotion_buyandwin.cardIssuers = new string[] { };
-					promotion_buyandwin.totalValuePurchase = 0.0f;
-					promotion_buyandwin.slasIds = new string[] { };
-					promotion_buyandwin.isSlaSelected = false;
-					promotion_buyandwin.isFirstBuy = false;
-					promotion_buyandwin.firstBuyIsProfileOptimistic = true;
-					promotion_buyandwin.compareListPriceAndPrice = false;
-					promotion_buyandwin.isDifferentListPriceAndPrice = false;
-					promotion_buyandwin.zipCodeRanges = new string[] { };
-					promotion_buyandwin.itemMaxPrice = 0.0f;
-					promotion_buyandwin.itemMinPrice = 0.0f;
-					promotion_buyandwin.isMinMaxInstallments = false;
-					promotion_buyandwin.minInstallment = 0;
-					promotion_buyandwin.maxInstallment = 0;
-					promotion_buyandwin.merchants = new string[] { };
-					promotion_buyandwin.clusterExpressions = new string[] { };
-					promotion_buyandwin.piiClusterExpressions = new string[] { };
-					promotion_buyandwin.clusterOperator = "all";
-					promotion_buyandwin.paymentsRules = new string[] { };
-					promotion_buyandwin.giftListTypes = new string[] { };
-					promotion_buyandwin.productsSpecifications = new string[] { };
-					promotion_buyandwin.affiliates = new string[] { };
-					promotion_buyandwin.maxUsage = 0;
-					promotion_buyandwin.maxUsagePerClient = 0;
-					promotion_buyandwin.shouldDistributeDiscountAmongMatchedItems = false;
-					promotion_buyandwin.multipleUsePerClient = false;
-					promotion_buyandwin.accumulateWithManualPrice = false;
-					promotion_buyandwin.type = "buyAndWin";
-					promotion_buyandwin.useNewProgressiveAlgorithm = false;
-					promotion_buyandwin.percentualDiscountValueList = new int[] { };
-					if (gifts.Count > 0)
+					
+					promotion_for_the_price_of.products = new object[] { };
+					promotion_for_the_price_of.productsAreInclusive = true;
+					promotion_for_the_price_of.skus = new string[] { };
+					promotion_for_the_price_of.skusAreInclusive = true;
+					promotion_for_the_price_of.collections1BuyTogether = new string[] { };
+					promotion_for_the_price_of.collections2BuyTogether = new string[] { };
+					promotion_for_the_price_of.minimumQuantityBuyTogether = minimum_quantity_buy_together;//cantidad minima que se debe comprar para que aplique la promo
+					promotion_for_the_price_of.quantityToAffectBuyTogether = quantity_to_affect_buy_together;//cantidad que se lleva de regalo
+					promotion_for_the_price_of.enableBuyTogetherPerSku = true;
+					promotion_for_the_price_of.listSku1BuyTogether = products;
+					promotion_for_the_price_of.listSku2BuyTogether = new string[] { };
+					promotion_for_the_price_of.coupon = new string[] { };
+					promotion_for_the_price_of.totalValueFloor = 0;
+					promotion_for_the_price_of.totalValueCeling = 0;
+					promotion_for_the_price_of.totalValueMode = "IncludeMatchedItems";
+					promotion_for_the_price_of.collections = new string[] { };
+					promotion_for_the_price_of.collectionsIsInclusive = true;
+					promotion_for_the_price_of.restrictionsBins = new string[] { };
+					promotion_for_the_price_of.cardIssuers = new string[] { };
+					promotion_for_the_price_of.totalValuePurchase = 0.0f;
+					promotion_for_the_price_of.slasIds = new string[] { };
+					promotion_for_the_price_of.isSlaSelected = false;
+					promotion_for_the_price_of.isFirstBuy = false;
+					promotion_for_the_price_of.firstBuyIsProfileOptimistic = true;
+					promotion_for_the_price_of.compareListPriceAndPrice = false;
+					promotion_for_the_price_of.isDifferentListPriceAndPrice = false;
+					promotion_for_the_price_of.zipCodeRanges = new string[] { };
+					promotion_for_the_price_of.itemMaxPrice = 0.0f;
+					promotion_for_the_price_of.itemMinPrice = 0.0f;
+					promotion_for_the_price_of.isMinMaxInstallments = false;
+					promotion_for_the_price_of.minInstallment = 0;
+					promotion_for_the_price_of.maxInstallment = 0;
+					promotion_for_the_price_of.merchants = new string[] { };
+					promotion_for_the_price_of.clusterExpressions = new string[] { };
+					promotion_for_the_price_of.piiClusterExpressions = new string[] { };
+					promotion_for_the_price_of.clusterOperator = "all";
+					promotion_for_the_price_of.paymentsRules = new string[] { };
+					promotion_for_the_price_of.giftListTypes = new string[] { };
+					promotion_for_the_price_of.productsSpecifications = new string[] { };
+					promotion_for_the_price_of.affiliates = new string[] { };
+					promotion_for_the_price_of.maxUsage = 0;
+					promotion_for_the_price_of.maxUsagePerClient = 0;
+					promotion_for_the_price_of.shouldDistributeDiscountAmongMatchedItems = false;
+					promotion_for_the_price_of.multipleUsePerClient = false;
+					promotion_for_the_price_of.accumulateWithManualPrice = false;
+					promotion_for_the_price_of.type = "forThePriceOf";
+					promotion_for_the_price_of.useNewProgressiveAlgorithm = false;
+					promotion_for_the_price_of.percentualDiscountValueList = new int[] { };
+					if (products.Count > 0)
 					{
 						string respuesta = "";
 						try
 						{
-							Task<string> task_create_update_promotion = Task.Run(() => VTEXCreateUpdatePromotion(promotion_buyandwin, master));
+							Task<string> task_create_update_promotion = Task.Run(() => VTEXCreateUpdatePromotion(promotion_for_the_price_of, master));
 							task_create_update_promotion.Wait();
 							respuesta = Convert.ToString(task_create_update_promotion.Result);
 							task_create_update_promotion.Dispose();
@@ -1044,14 +1059,16 @@ namespace IntegracionVTEX.Data
 					if (nominalDiscountValue > 0)
 					{
 						promotion_id_calculator_regular.discountType = "nominal";//percentual
-						promotion_id_calculator_regular.nominalDiscountValue = Convert.ToSingle(rows[0]["nominalDiscountValue"]);
+						promotion_id_calculator_regular.nominalDiscountValue = 0;// Convert.ToSingle(rows[0]["nominalDiscountValue"]);
 						promotion_id_calculator_regular.percentualDiscountValue = 0.0f;
+						promotion_id_calculator_regular.discountExpression = $"quantity * {Convert.ToString(rows[0]["nominalDiscountValue"]).Replace(",",".")}";
 					}
 					if (percentualDiscountValue > 0)
 					{
 						promotion_id_calculator_regular.discountType = "percentual";
 						promotion_id_calculator_regular.nominalDiscountValue = 0.0f;
 						promotion_id_calculator_regular.percentualDiscountValue = Convert.ToSingle(rows[0]["percentualDiscountValue"]);
+						promotion_id_calculator_regular.discountExpression = "";
 					}
 
 					promotion_id_calculator_regular.nominalShippingDiscountValue = 0.0f;
@@ -1225,14 +1242,16 @@ namespace IntegracionVTEX.Data
 					if (nominalDiscountValue > 0)
 					{
 						promotion_regular.discountType = "nominal";
-						promotion_regular.nominalDiscountValue = Convert.ToSingle(rows[0]["nominalDiscountValue"]);
+						promotion_regular.nominalDiscountValue = 0;// Convert.ToSingle(rows[0]["nominalDiscountValue"]);
 						promotion_regular.percentualDiscountValue = 0.0f;
+						promotion_regular.discountExpression = $"quantity * {Convert.ToString(rows[0]["nominalDiscountValue"]).Replace(",", ".")}";
 					}
 					if (percentualDiscountValue > 0)
 					{
 						promotion_regular.discountType = "percentual";
 						promotion_regular.nominalDiscountValue = 0.0f;
 						promotion_regular.percentualDiscountValue = Convert.ToSingle(rows[0]["percentualDiscountValue"]);
+						promotion_regular.discountExpression = "";
 					}
 
 					promotion_regular.nominalDiscountType = "cart";

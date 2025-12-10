@@ -47,8 +47,8 @@ namespace IntegracionVTEX.Data
 				},
 					Method = HttpMethod.Get,
 				};
-                System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls12;
-                using (var response = await client.SendAsync(request))
+				System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls12;
+				using (var response = await client.SendAsync(request))
 				{
 					//response.EnsureSuccessStatusCode();
 					res = await response.Content.ReadAsStringAsync();
@@ -161,7 +161,9 @@ namespace IntegracionVTEX.Data
 					inventory = new Models.SKU.Inventory();
 					inventory.unlimitedQuantity = Convert.ToBoolean(row["unlimitedQuantity"]);
 					inventory.dateUtcOnBalanceSystem = null;
-					inventory.quantity = Convert.ToInt32(row["quantity"]);
+					_ = int.TryParse(Convert.ToString(row["quantity"]), out int quantity);
+					quantity = quantity - 5;
+					inventory.quantity = quantity < 0 ? 0 : quantity;
 
 					Task<string> task_update_inventory = Task.Run(() => VTEXUpdateInventoryBySkuAndWarehouse(inventory, sku_id, Configuracion.CentroOperacion));
 					task_update_inventory.Wait();

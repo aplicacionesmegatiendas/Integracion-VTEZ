@@ -162,17 +162,31 @@ namespace IntegracionVTEX
 								}
 							}
 							break;
-						case "M3"://PROMOCIONES POR WL
-							if (configuracion.ObtenerConfiguracion(args[1]) == true)//M, INSTALACION, PORTAFOLIO
+						case "M3"://PROMOCIONES POR WL 2X1
+							if (configuracion.ObtenerConfiguracion(args[1]) == true)//M3, INSTALACION, PORTAFOLIO
 							{
 								Configuracion.CentroOperacion = args[1];
 								Configuracion.Portafolio = args[2];
 								Promotions promotions = new Promotions();
-								DataTable data = promotions.GetPromotionBuyAndWinListCentroOperacion();
+								DataTable data = promotions.GetPromotionForThePriceOfListCentroOperacion();
 
 								if (data != null)
 								{
-									CreateUpdateBuyAndWinPromotion(data, promotions, false, false);
+									CreateUpdateForThePriceOfPromotion(data, promotions, false, false);
+								}
+							}
+							break;
+						case "M4"://PROMOCIONES PRINCIPAL 2X1
+							if (configuracion.ObtenerConfiguracion(args[1]) == true)//M4, INSTALACION, PORTAFOLIO
+							{
+								Configuracion.CentroOperacion = args[1];
+								Configuracion.Portafolio = args[2];
+								Promotions promotions = new Promotions();
+								DataTable data = promotions.GetPromotionForThePriceOfList();
+
+								if (data != null)
+								{
+									CreateUpdateForThePriceOfPromotion(data, promotions, false, false);
 								}
 							}
 							break;
@@ -723,7 +737,7 @@ namespace IntegracionVTEX
 			Auxiliary.SaveTotalResult("CreatePromotion", total_nuevo);
 		}
 
-		private static void CreateUpdateBuyAndWinPromotion(DataTable data, Promotions promotion, bool master, bool institucional)
+		private static void CreateUpdateForThePriceOfPromotion(DataTable data, Promotions promotion, bool master, bool institucional)
 		{
 			List<string> names = data.AsEnumerable().Select(r => r.Field<string>("name")).Distinct().ToList();
 			int[] total;
@@ -749,14 +763,14 @@ namespace IntegracionVTEX
 								DataRow[] bloque_actual = new DataRow[tamaño_bloque_actual];
 								Array.Copy(rows, i, bloque_actual, 0, tamaño_bloque_actual);
 								string name_new = $"{name.Trim()}_{complemento.ToString("0#")}";
-								total = promotion.CreateUpdateBuyAndWinPromotion(name_new, bloque_actual, master);
+								total = promotion.CreateUpdateForThePriceOfPromotion(name_new, bloque_actual, master);
 								total_act += total[0];
 								total_nuevo += total[1];
 							}
 						}
 						else
 						{
-							total = promotion.CreateUpdateBuyAndWinPromotion(name, rows, master);
+							total = promotion.CreateUpdateForThePriceOfPromotion(name, rows, master);
 							total_act += total[0];
 							total_nuevo += total[1];
 						}

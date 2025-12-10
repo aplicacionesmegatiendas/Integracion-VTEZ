@@ -29,7 +29,8 @@ namespace IntegracionVTEX.Models
         public float absoluteShippingDiscountValue { get; set; }
         public float nominalDiscountValue { get; set; }
         public string nominalDiscountType { get; set; }
-        public float maximumUnitPriceDiscount { get; set; }
+        public string discountExpression { get; set; }
+		public float maximumUnitPriceDiscount { get; set; }
         public float percentualDiscountValue { get; set; }
         public float rebatePercentualDiscountValue { get; set; }
         public float percentualShippingDiscountValue { get; set; }
@@ -144,6 +145,7 @@ namespace IntegracionVTEX.Models
 		public float absoluteShippingDiscountValue { get; set; }
 		public float nominalDiscountValue { get; set; }
 		public string nominalDiscountType { get; set; }
+		public string discountExpression { get; set; }
 		public float maximumUnitPriceDiscount { get; set; }
 		public float percentualDiscountValue { get; set; }
 		public float rebatePercentualDiscountValue { get; set; }
@@ -237,8 +239,8 @@ namespace IntegracionVTEX.Models
 	}
 	#endregion
 
-	#region PROMO BUYANDWIN
-	public class PromotionBuyAndWin
+	#region PROMO FORTHEPRICEOF
+	public class PromotionForThePriceOf
 	{
 		public string name { get; set; }
 		public string description { get; set; }
@@ -260,6 +262,7 @@ namespace IntegracionVTEX.Models
 		public float absoluteShippingDiscountValue { get; set; }
 		public float nominalDiscountValue { get; set; }
 		public string nominalDiscountType { get; set; }
+		public string discountExpression { get; set; }
 		public float maximumUnitPriceDiscount { get; set; }
 		public float percentualDiscountValue { get; set; }
 		public float rebatePercentualDiscountValue { get; set; }
@@ -345,21 +348,25 @@ namespace IntegracionVTEX.Models
 			public string name { get; set; }
 		}
 
-		public class Gift
+		/*public class Gift
 		{
 			public string id { get; set; }
 			public string name { get; set; }
 			public int quantity { get; set; }
-		}
-
+		}*/
 		public class SkusGift
 		{
 			public int quantitySelectable { get; set; }
-			public List<Gift> gifts { get; set; }
+			public object[] gifts { get; set; }
 		}
+		/*public class SkusGift
+		{
+			public int quantitySelectable { get; set; }
+			public List<Gift> gifts { get; set; }
+		}*/
 	}
 
-	public class PromotionIdCalculatorBuyAndWin
+	public class PromotionIdCalculatorForThePriceOf
 	{
 		public string idCalculatorConfiguration { get; set; }
 		public string name { get; set; }
@@ -382,6 +389,7 @@ namespace IntegracionVTEX.Models
 		public float absoluteShippingDiscountValue { get; set; }
 		public float nominalDiscountValue { get; set; }
 		public string nominalDiscountType { get; set; }
+		public string discountExpression { get; set; }
 		public float maximumUnitPriceDiscount { get; set; }
 		public float percentualDiscountValue { get; set; }
 		public float rebatePercentualDiscountValue { get; set; }
@@ -466,8 +474,12 @@ namespace IntegracionVTEX.Models
 			public string id { get; set; }
 			public string name { get; set; }
 		}
-
-		public class Gift
+		public class SkusGift
+		{
+			public int quantitySelectable { get; set; }
+			public object[] gifts { get; set; }
+		}
+		/*public class Gift
 		{
 			public string id { get; set; }
 			public string name { get; set; }
@@ -478,7 +490,7 @@ namespace IntegracionVTEX.Models
 		{
 			public int quantitySelectable { get; set; }
 			public List<Gift> gifts { get; set; }
-		}
+		}*/
 	}
 	#endregion
 }
