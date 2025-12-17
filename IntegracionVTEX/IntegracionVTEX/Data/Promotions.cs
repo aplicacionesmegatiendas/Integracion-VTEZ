@@ -335,7 +335,7 @@ namespace IntegracionVTEX.Data
 			string res = null;
 			try
 			{
-				string uri = /*Configuracion.UrlCreateOrUpdatePromotion;*/ "https://whitelabelspruebas--megatiendas.vtexcommercestable.com.br/api/rnb/pvt/calculatorconfiguration";
+				string uri = Configuracion.UrlCreateOrUpdatePromotion;//"https://whitelabelspruebas--megatiendas.vtexcommercestable.com.br/api/rnb/pvt/calculatorconfiguration";
 				string json = JsonConvert.SerializeObject(promotion);
 				StringContent data = new StringContent(json, Encoding.UTF8, "application/json");
 				HttpClient client = new HttpClient();
@@ -348,8 +348,8 @@ namespace IntegracionVTEX.Data
 				}
 				else
 				{
-					app_key = /*Configuracion.AppKey;//*/"vtexappkey-megatiendas-MKNBXJ";
-					app_token = /*Configuracion.AppToken;//*/"XMZJPRXNLALRINBLJILOUMOQQSYDHTPYOUCMJRQNFYZLRIQXPBBFDJFAMUMMFALAHPXWQBHIBZAVQZELAOVKCGNUMZRPDADCXYWJTFNZHHZADSWQTHRLNBLALKIXUYIM";
+					app_key = Configuracion.AppKey;//"vtexappkey-megatiendas-MKNBXJ";
+					app_token = Configuracion.AppToken;//"XMZJPRXNLALRINBLJILOUMOQQSYDHTPYOUCMJRQNFYZLRIQXPBBFDJFAMUMMFALAHPXWQBHIBZAVQZELAOVKCGNUMZRPDADCXYWJTFNZHHZADSWQTHRLNBLALKIXUYIM";
 				}
 				HttpRequestMessage request = new HttpRequestMessage
 				{
@@ -673,7 +673,9 @@ namespace IntegracionVTEX.Data
 
 					promotion_id_calculator_for_the_price_of.discountType = "forThePriceOf";
 					promotion_id_calculator_for_the_price_of.nominalDiscountValue = 0.0f;
-					promotion_id_calculator_for_the_price_of.percentualDiscountValue = 0.0f;
+
+					float percentualDiscountValue = Convert.ToSingle(rows[0]["percentualDiscountValue"]);
+					promotion_id_calculator_for_the_price_of.percentualDiscountValue = percentualDiscountValue;
 
 					promotion_id_calculator_for_the_price_of.discountExpression = "";
 
@@ -834,7 +836,7 @@ namespace IntegracionVTEX.Data
 					promotion_for_the_price_of.endDateUtc = endDateUtc;
 					promotion_for_the_price_of.lastModified = lastModified;
 					promotion_for_the_price_of.daysAgoOfPurchases = 0;
-					promotion_for_the_price_of.isActive = false;
+					promotion_for_the_price_of.isActive = true;
 					promotion_for_the_price_of.isArchived = false;
 					promotion_for_the_price_of.isFeatured = true;
 					promotion_for_the_price_of.disableDeal = false;

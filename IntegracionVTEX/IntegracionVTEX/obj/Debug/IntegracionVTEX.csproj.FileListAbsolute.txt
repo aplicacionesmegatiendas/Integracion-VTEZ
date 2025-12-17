@@ -862,6 +862,6 @@ E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\Integ
 E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\Integrac.6CA49C14.Up2Date
 E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe
 E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.pdb
-E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe.config
 E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Data\PromotionForThePriceOfCentroOperacionQuery.txt
 E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\bin\Debug\Data\PromotionForThePriceOfQuery.txt
+E:\PROYECTOS GIT\IntegracionVTEX\IntegracionVTEX\IntegracionVTEX\obj\Debug\IntegracionVTEX.exe.config

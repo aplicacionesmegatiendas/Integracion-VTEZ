@@ -3,19 +3,15 @@
   "WorkspaceRootPath": "E:\\PROYECTOS GIT\\IntegracionVTEX\\IntegracionVTEX\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{96F2725C-4AFD-45A0-ABBA-39B975D0867F}|IntegracionVTEX\\IntegracionVTEX.csproj|e:\\proyectos git\\integracionvtex\\integracionvtex\\integracionvtex\\data\\promotionforthepriceofcentrooperacionquery.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{96F2725C-4AFD-45A0-ABBA-39B975D0867F}|IntegracionVTEX\\IntegracionVTEX.csproj|solutionrelative:integracionvtex\\data\\promotionforthepriceofcentrooperacionquery.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{96F2725C-4AFD-45A0-ABBA-39B975D0867F}|IntegracionVTEX\\IntegracionVTEX.csproj|e:\\proyectos git\\integracionvtex\\integracionvtex\\integracionvtex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96F2725C-4AFD-45A0-ABBA-39B975D0867F}|IntegracionVTEX\\IntegracionVTEX.csproj|solutionrelative:integracionvtex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|IntegracionVTEX||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96F2725C-4AFD-45A0-ABBA-39B975D0867F}|IntegracionVTEX\\IntegracionVTEX.csproj|e:\\proyectos git\\integracionvtex\\integracionvtex\\integracionvtex\\data\\promotions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96F2725C-4AFD-45A0-ABBA-39B975D0867F}|IntegracionVTEX\\IntegracionVTEX.csproj|solutionrelative:integracionvtex\\data\\promotions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96F2725C-4AFD-45A0-ABBA-39B975D0867F}|IntegracionVTEX\\IntegracionVTEX.csproj|e:\\proyectos git\\integracionvtex\\integracionvtex\\integracionvtex\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{96F2725C-4AFD-45A0-ABBA-39B975D0867F}|IntegracionVTEX\\IntegracionVTEX.csproj|solutionrelative:integracionvtex\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96F2725C-4AFD-45A0-ABBA-39B975D0867F}|IntegracionVTEX\\IntegracionVTEX.csproj|e:\\proyectos git\\integracionvtex\\integracionvtex\\integracionvtex\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|6185191f-1008-4fb2-a715-3a4e4f27e610"
@@ -28,7 +24,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -80,53 +76,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.config",
-              "DocumentMoniker": "E:\\PROYECTOS GIT\\IntegracionVTEX\\IntegracionVTEX\\IntegracionVTEX\\App.config",
-              "RelativeDocumentMoniker": "IntegracionVTEX\\App.config",
-              "ToolTip": "E:\\PROYECTOS GIT\\IntegracionVTEX\\IntegracionVTEX\\IntegracionVTEX\\App.config",
-              "RelativeToolTip": "IntegracionVTEX\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAB9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-12-10T14:39:02.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Promotions.cs",
-              "DocumentMoniker": "E:\\PROYECTOS GIT\\IntegracionVTEX\\IntegracionVTEX\\IntegracionVTEX\\Data\\Promotions.cs",
-              "RelativeDocumentMoniker": "IntegracionVTEX\\Data\\Promotions.cs",
-              "ToolTip": "E:\\PROYECTOS GIT\\IntegracionVTEX\\IntegracionVTEX\\IntegracionVTEX\\Data\\Promotions.cs",
-              "RelativeToolTip": "IntegracionVTEX\\Data\\Promotions.cs",
-              "ViewState": "AgIAAGMCAAAAAAAAAAAhwHgCAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T14:27:20.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "IntegracionVTEX",
               "DocumentMoniker": "E:\\PROYECTOS GIT\\IntegracionVTEX\\IntegracionVTEX\\IntegracionVTEX\\IntegracionVTEX.csproj",
               "RelativeDocumentMoniker": "IntegracionVTEX\\IntegracionVTEX.csproj",
               "ToolTip": "E:\\PROYECTOS GIT\\IntegracionVTEX\\IntegracionVTEX\\IntegracionVTEX\\IntegracionVTEX.csproj",
               "RelativeToolTip": "IntegracionVTEX\\IntegracionVTEX.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-10T12:49:44.785Z",
+              "WhenOpened": "2025-12-16T13:53:32.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\PROYECTOS GIT\\IntegracionVTEX\\IntegracionVTEX\\IntegracionVTEX\\Program.cs",
               "RelativeDocumentMoniker": "IntegracionVTEX\\Program.cs",
               "ToolTip": "E:\\PROYECTOS GIT\\IntegracionVTEX\\IntegracionVTEX\\IntegracionVTEX\\Program.cs",
               "RelativeToolTip": "IntegracionVTEX\\Program.cs",
-              "ViewState": "AgIAADcCAAAAAAAAAAApwEwCAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAD8BAAAAAAAAAAAhwFIBAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T12:46:05.587Z",
+              "WhenOpened": "2025-12-16T13:52:20.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PromotionForThePriceOfCentroOperacionQuery.txt",
+              "DocumentMoniker": "E:\\PROYECTOS GIT\\IntegracionVTEX\\IntegracionVTEX\\IntegracionVTEX\\Data\\PromotionForThePriceOfCentroOperacionQuery.txt",
+              "RelativeDocumentMoniker": "IntegracionVTEX\\Data\\PromotionForThePriceOfCentroOperacionQuery.txt",
+              "ToolTip": "E:\\PROYECTOS GIT\\IntegracionVTEX\\IntegracionVTEX\\IntegracionVTEX\\Data\\PromotionForThePriceOfCentroOperacionQuery.txt",
+              "RelativeToolTip": "IntegracionVTEX\\Data\\PromotionForThePriceOfCentroOperacionQuery.txt",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAAHsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-16T13:51:57.876Z",
               "EditorCaption": ""
             }
           ]
