@@ -1,0 +1,126 @@
+﻿select distinct
+	convert(varchar,consulta.co_descuento) name_co,
+	convert(varchar,consulta.f110_id)+'-'+convert(varchar,consulta.f111_nro_linea) name,
+	consulta.f110_descripcion description,
+	dateadd(HH,5,consulta.f111_fecha_inicial) beginDateUtc,
+	dateadd(SS,104399,consulta.f111_fecha_final) endDateUtc,
+	current_timestamp lastModified,
+	
+    consulta.f111_valor_dscto "nominalDiscountValue",
+   
+    consulta.f111_porcentaje_dscto "percentualDiscountValue",
+   
+	f120_id "products.id",
+	convert(varchar,f120_id)+'-'+f120_descripcion "products.name",
+	
+	'forThePriceOf' "type",
+	consulta.notas notas,
+	consulta.f111_cant_2x1 compra,
+	consulta.f111_ind_aplica_todo_reg2x1 lleva,
+	consulta.operador_2x1
+into
+	#descuentos
+from 
+	(
+		select distinct
+			f111_rowid,
+			f110_id_cia,
+			f110_id,
+			f111_nro_linea,
+			f110_descripcion,
+			f111_fecha_inicial,
+			f111_fecha_final,
+			co_dscts.f1113_id_co co_descuento,
+			co_ln.f1113_id_co co_linea_descuento,
+			f111_id_lista_precios, 
+			f111_porcentaje_dscto,
+			f111_valor_dscto,
+			f111_id_portafolio,
+			f111_id_plan_item_1,
+			f111_id_criterio_mayor_item_1,
+
+			case when not(ic.f120_id IS null)then 
+				ic.f120_rowid
+			when not(p.f120_id IS null)then
+				p.f120_rowid
+			else
+				d.f120_rowid
+			end rowid_item,
+
+			--f121_rowid,
+			f111_cant_2x1 por_la_compra_de,
+			f111_ind_aplica_todo_reg2x1 que_aplique_a,
+
+			f111_id_portafolio_2x1,
+			iep2x1.f121_rowid_item rowid_item_portafolio_2x1,
+			iep2x1.f121_id_barras_principal cod_barra_producto_portafolio_2x1,
+			f110_ind_exclusivo ind_exclusivo,
+			f110_notas notas,
+			 f111_cant_2x1,
+			f111_ind_aplica_todo_reg2x1,
+
+			case when f111_ind_operador_2x1 = 3 then
+				'igual'
+			when f111_ind_operador_2x1=2 then
+				'diferente'
+			when f111_ind_operador_2x1=1 then
+				'diferente o igual'
+			end operador_2x1
+		from 
+			t111_mc_promo_dsctos_linea
+			left outer join t110_mc_promo_dsctos on f110_id_cia=f111_id_cia and f110_rowid=f111_rowid_promo_dscto
+			left outer join t1113_mc_promo_dsctos_co co_dscts on co_dscts.f1113_id_cia=f110_id_cia and co_dscts.f1113_rowid_promo_dscto=f110_rowid
+			left outer join t1113_mc_promo_dsctos_co co_ln on co_ln.f1113_id_cia=f111_id_cia and co_ln.f1113_rowid_promo_dscto_linea=f111_rowid
+			left outer join t125_mc_items_criterios on f125_id_cia=f111_id_cia and f125_id_criterio_mayor=f111_id_criterio_mayor_item_1 and f125_id_plan=f111_id_plan_item_1
+			left outer join t137_mc_portafolio_items on f137_id_cia=f111_id_cia and f137_id_portafolio=f111_id_portafolio
+			left outer join t120_mc_items ic on ic.f120_id_cia=f125_id_cia and ic.f120_rowid=f125_rowid_item
+			left outer join t121_mc_items_extensiones ie on ie.f121_id_cia=f137_id_cia and ie.f121_rowid=f137_rowid_item_ext
+			left outer join t120_mc_items p on p.f120_id_cia=f137_id_cia and p.f120_rowid=f121_rowid_item
+			left outer join t120_mc_items d on d.f120_id_cia=f111_id_cia and d.f120_rowid=f111_rowid_item
+			left outer join t137_mc_portafolio_items p2x1 on p2x1.f137_id_cia=f111_id_cia and p2x1.f137_id_portafolio=f111_id_portafolio_2x1
+			left outer join t121_mc_items_extensiones iep2x1 on iep2x1.f121_id_cia=p2x1.f137_id_cia and iep2x1.f121_rowid=p2x1.f137_rowid_item_ext
+		where
+			CONVERT(date,getdate()) between f111_fecha_inicial and f111_fecha_final 
+			and f111_id_cia=@id_cia
+			and f111_id_plan_cli_1 is null --para publico general
+			and f111_id_plan_cli_2 is null --para publico general
+			and f111_ind_operador_2x1=3 --no es promoción 2x1
+			and f111_rowid_tercero_cli is null -- no es para cliente credito
+			--and f111_valor_dscto=0 --solo porcentaje
+			and f111_ind_estado=1 -- lineas activas
+			and f110_ind_estado=1 -- descuento activo
+			and f110_ind_exclusivo=0
+			and f111_rowid_promo_frecuencia is null -- sin frecuencias
+			and f110_rowid in (	select f1113_rowid_promo_dscto from t1113_mc_promo_dsctos_co t1113 where
+			t1113.f1113_id_cia=@id_cia and t1113.f1113_rowid_promo_dscto=f110_rowid and t1113.f1113_id_co in (
+			'111','108','101','106','103','105','204','202','401','402', '210')))consulta
+	left outer join t120_mc_items on consulta.f110_id_cia=f120_id_cia and f120_rowid=consulta.rowid_item
+	left outer join t121_mc_items_extensiones ie on ie.f121_id_cia=f120_id_cia and ie.f121_rowid_item=f120_rowid
+where
+	consulta.f110_id_cia=@id_cia
+	and consulta.rowid_item in (
+		select
+			f121_rowid_item
+		from
+			t137_mc_portafolio_items
+			inner join t121_mc_items_extensiones on f121_id_cia=f137_id_cia and f137_id_portafolio=@id_portafolio and f121_rowid=f137_rowid_item_ext
+		where
+			f137_id_cia=@id_cia
+	)
+	and consulta.co_descuento=@id_co
+order by
+	convert(varchar,consulta.f110_id)+'-'+convert(varchar,consulta.f111_nro_linea),
+	f120_id;
+
+select
+	*
+from
+	#descuentos
+where
+	--notas is null or not(upper(notas) like upper('des_institucional%'))
+	  notas IS NULL 
+  OR (
+      UPPER(notas) NOT LIKE 'DES_INSTITUCIONAL%'
+      AND UPPER(notas) NOT LIKE '%NO PUBLICAR%'
+  )
+drop table #descuentos;

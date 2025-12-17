@@ -1,0 +1,42 @@
+﻿select distinct
+	f120_id RefId,
+	f131_id Ean,
+	round(100*abs(dbo.F_GENERICO_HALLAR_PREC_VTA (@id_cia, @id_lista_precios, f121_rowid, convert(date,getdate()), f131_id_unidad_medida)/f132_costo_prom_uni -1),0) markup,
+	null listPrice,
+	f132_costo_prom_uni costPrice,
+	1 tradePolicyId,
+	case when (f131_id_unidad_medida='Kg' and iu.f122_id_unidad='LBS') then
+	round(dbo.F_GENERICO_HALLAR_PREC_VTA (@id_cia, @id_lista_precios, f121_rowid, convert(date,getdate()), f131_id_unidad_medida)/2,0)
+	else
+	round(dbo.F_GENERICO_HALLAR_PREC_VTA (@id_cia, @id_lista_precios, f121_rowid, convert(date,getdate()), f131_id_unidad_medida),0)
+	end value,
+	null listPrice,
+	1 minQuantity
+from
+	t131_mc_items_barras
+	inner join t121_mc_items_extensiones on f121_id_cia=f131_id_cia and f121_rowid=f131_rowid_item_ext
+	inner join t120_mc_items on f120_id_cia=f121_id_cia and f120_rowid=f121_rowid_item
+	inner join t125_mc_items_criterios tvn1 on tvn1.f125_id_cia=f120_id_cia and tvn1.f125_rowid_item=f120_rowid and tvn1.f125_id_plan='018'
+	inner join t106_mc_criterios_item_mayores m_tvn1 on m_tvn1.f106_id_cia=tvn1.f125_id_cia and m_tvn1.f106_id_plan=tvn1.f125_id_plan and m_tvn1.f106_id=tvn1.f125_id_criterio_mayor
+	inner join t125_mc_items_criterios tvn2 on tvn2.f125_id_cia=f120_id_cia and tvn2.f125_rowid_item=f120_rowid and tvn2.f125_id_plan='019'
+	inner join t106_mc_criterios_item_mayores m_tvn2 on m_tvn2.f106_id_cia=tvn2.f125_id_cia and m_tvn2.f106_id_plan=tvn2.f125_id_plan and m_tvn2.f106_id=tvn2.f125_id_criterio_mayor
+	left outer join t132_mc_items_instalacion on f132_id_cia=f121_id_cia and f132_rowid_item_ext=f121_rowid
+	left outer join t122_mc_items_unidades iu on iu.f122_id_cia=f120_id_cia and iu.f122_rowid_item=f120_rowid and iu.f122_id_unidad='LBS'
+where
+	f121_id_cia=@id_cia
+	and f121_ind_estado=1
+	and f120_ind_venta=1
+	and f132_id_instalacion=@id_instalacion
+	and f132_costo_prom_uni>0
+	and LEN(f131_id)<=13
+	and f120_rowid in 
+	(
+		select
+			f121_rowid_item
+		from
+			t137_mc_portafolio_items
+			inner join t121_mc_items_extensiones on f121_id_cia=f137_id_cia and f137_id_portafolio=@id_portafolio and f121_rowid=f137_rowid_item_ext
+		where
+			f137_id_cia=@id_cia
+	)
+	and dbo.F_GENERICO_HALLAR_PREC_VTA (@id_cia, @id_lista_precios, f121_rowid, convert(date,getdate()), f131_id_unidad_medida)>0
