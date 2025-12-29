@@ -103,7 +103,11 @@
     '[]' "percentualDiscountValueList",
     0 "maxNumberOfAffectedItems",
     'perCart' "maxNumberOfAffectedItemsGroupKey",
-    consulta.notas notas
+    consulta.notas notas,
+	ROW_NUMBER() OVER (
+        PARTITION BY f120_id
+        ORDER BY consulta.co_descuento ASC
+    ) AS rn
 into
 	#descuentos
 from 
@@ -217,5 +221,7 @@ from
 where
 	upper(notas) like UPPER('des_institucional%')
 	--and not(upper(notas) like upper('%no publicar%'));
-
+	AND rn=1
+order by 
+	[products.id] asc
 drop table #descuentos;

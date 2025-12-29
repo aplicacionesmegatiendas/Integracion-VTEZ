@@ -17,7 +17,11 @@
 	consulta.notas notas,
 	consulta.f111_cant_2x1 compra,
 	consulta.f111_ind_aplica_todo_reg2x1 lleva,
-	consulta.operador_2x1
+	consulta.operador_2x1,
+	ROW_NUMBER() OVER (
+		PARTITION BY f120_id
+		ORDER BY consulta.co_descuento ASC
+	) AS rn
 into
 	#descuentos
 from 
@@ -123,4 +127,7 @@ where
       UPPER(notas) NOT LIKE 'DES_INSTITUCIONAL%'
       AND UPPER(notas) NOT LIKE '%NO PUBLICAR%'
   )
+  AND rn=1
+order by 
+	[products.id] asc
 drop table #descuentos;
