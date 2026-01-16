@@ -1,20 +1,21 @@
-﻿using System;
+﻿using IntegracionVTEX.Models;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
-using System.Data.SqlClient;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Collections.Specialized.BitVector32;
-using System.IO;
-using Newtonsoft.Json;
-using System.Net.Http;
-using IntegracionVTEX.Models;
-using static IntegracionVTEX.Models.Price;
+using System.Data.SqlClient;
 using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Net.Http;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Xml.Linq;
 using System.Xml.Schema;
+using static IntegracionVTEX.Models.Price;
+using static System.Collections.Specialized.BitVector32;
 
 namespace IntegracionVTEX.Data
 {
@@ -42,7 +43,7 @@ namespace IntegracionVTEX.Data
 			try
 			{
 
-				string uri = Configuracion.UrlSearchPromotionByName;//"https://whitelabelspruebas--megatiendas.vtexcommercestable.com.br/api/rnb/pvt/benefits/calculatorconfiguration/search?byName="; 
+				string uri = Configuracion.UrlSearchPromotionByName;//"https://whitelabelspruebas--megatiendas.vtexcommercestable.com.br/api/rnb/pvt/benefits/calculatorconfiguration/search?byName=";
 				HttpClient client = new HttpClient();
 				string app_key = "";
 				string app_token = "";
@@ -201,7 +202,7 @@ namespace IntegracionVTEX.Data
 			string res = null;
 			try
 			{
-				string uri = Configuracion.UrlCreateOrUpdatePromotion;// "https://whitelabelspruebas--megatiendas.vtexcommercestable.com.br/api/rnb/pvt/calculatorconfiguration"
+				string uri = Configuracion.UrlCreateOrUpdatePromotion;// "https://whitelabelspruebas--megatiendas.vtexcommercestable.com.br/api/rnb/pvt/calculatorconfiguration";
 				string json = JsonConvert.SerializeObject(promotion);
 				StringContent data = new StringContent(json, Encoding.UTF8, "application/json");
 				HttpClient client = new HttpClient();
@@ -612,7 +613,7 @@ namespace IntegracionVTEX.Data
 				cmd.CommandTimeout = 600;
 				cmd.Parameters.AddWithValue("@id_cia", id_cia);
 				cmd.Parameters.AddWithValue("@id_portafolio", Configuracion.Portafolio);
-				
+
 				SqlDataReader reader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
 				if (reader.HasRows)
 				{
@@ -715,7 +716,7 @@ namespace IntegracionVTEX.Data
 					promotion_id_calculator_for_the_price_of.brandsAreInclusive = true;
 
 					List<PromotionIdCalculatorForThePriceOf.Product> products = new List<PromotionIdCalculatorForThePriceOf.Product>();
-					int minimum_quantity_buy_together =  Convert.ToInt32(rows[0]["compra"]);
+					int minimum_quantity_buy_together = Convert.ToInt32(rows[0]["compra"]);
 					int quantity_to_affect_buy_together = Convert.ToInt32(rows[0]["lleva"]);
 
 					foreach (DataRow row in rows)
@@ -920,7 +921,7 @@ namespace IntegracionVTEX.Data
 							continue;
 						}
 					}
-					
+
 					promotion_for_the_price_of.products = new object[] { };
 					promotion_for_the_price_of.productsAreInclusive = true;
 					promotion_for_the_price_of.skus = new string[] { };
@@ -1026,6 +1027,7 @@ namespace IntegracionVTEX.Data
 				task_get_promotion.Wait();
 				string res = Convert.ToString(task_get_promotion.Result);
 				task_get_promotion.Dispose();
+
 				if (res.TrimStart('[').TrimEnd(']') != "")
 				{
 					dynamic results_get_promotion = JsonConvert.DeserializeObject<dynamic>(res);
@@ -1063,7 +1065,7 @@ namespace IntegracionVTEX.Data
 						promotion_id_calculator_regular.discountType = "nominal";//percentual
 						promotion_id_calculator_regular.nominalDiscountValue = 0;// Convert.ToSingle(rows[0]["nominalDiscountValue"]);
 						promotion_id_calculator_regular.percentualDiscountValue = 0.0f;
-						promotion_id_calculator_regular.discountExpression = $"quantity * {Convert.ToString(rows[0]["nominalDiscountValue"]).Replace(",",".")}";
+						promotion_id_calculator_regular.discountExpression = $"quantity * {Convert.ToString(rows[0]["nominalDiscountValue"]).Replace(",", ".")}";
 					}
 					if (percentualDiscountValue > 0)
 					{

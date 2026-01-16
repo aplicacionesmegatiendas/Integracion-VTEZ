@@ -278,9 +278,9 @@ namespace IntegracionVTEX
 								}
 							}
 							break;
-						case "A":
+						case "A"://ARCHIVA LAS PROMOCIONES
 							{
-								if (configuracion.ObtenerConfiguracion(args[1]) == true)
+								if (configuracion.ObtenerConfiguracion(args[1]) == true)//A, INSTALACION
 								{
 									Configuracion.CentroOperacion = args[1];
 									Promotions promotion = new Promotions();

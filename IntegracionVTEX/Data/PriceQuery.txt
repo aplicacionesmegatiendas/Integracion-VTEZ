@@ -6,7 +6,7 @@
 	f132_costo_prom_uni costPrice,
 	1 tradePolicyId,
 	case when (f131_id_unidad_medida='Kg' and iu.f122_id_unidad='LBS') then
-	round(dbo.F_GENERICO_HALLAR_PREC_VTA (@id_cia, @id_lista_precios, f121_rowid, convert(date,getdate()), f131_id_unidad_medida)/2,0)
+	round(dbo.F_GENERICO_HALLAR_PREC_VTA (@id_cia, @id_lista_precios, f121_rowid,, convert(date,getdate()), f131_id_unidad_medida)/2,0)
 	else
 	round(dbo.F_GENERICO_HALLAR_PREC_VTA (@id_cia, @id_lista_precios, f121_rowid, convert(date,getdate()), f131_id_unidad_medida),0)
 	end value,
